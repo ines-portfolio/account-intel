@@ -24,6 +24,15 @@ let runs = [];
 let tab = "Summary";
 let busy = false;
 let apollo = null; // { creditsUsed, cost } when Apollo is connected
+// Where Corgi published a story. Five customers have a case-study page; the others are testimonials on the homepage,
+// so the link jumps to the quote itself (a text-fragment link) instead of the top of the page.
+function storyLink(x) {
+  const page = /\/customers\/[^/]+/.test(x.url ?? "");
+  const words = (String(x.quote ?? "").match(/[A-Za-z]+(?: [A-Za-z]+){3,6}/) ?? [""])[0];
+  const quoteHref = (x.quoteUrl || x.url || "") + (words ? `#:~:text=${encodeURIComponent(words)}` : "");
+  return page ? { kind: "Case study", href: x.url, label: "Read the case study ↗", quoteHref: x.quoteUrl && x.quoteUrl !== x.url ? quoteHref : null }
+    : { kind: "Homepage testimonial", href: quoteHref, label: "See the quote on corgi.insure ↗", quoteHref: null };
+}
 let app = { keys: { model: true, search: true, apollo: true } }; // last /api/status reply: which keys are in place
 
 const tone = (label) => (/^Work it: strong/.test(label) ? "good" : /^Work it|Weak|Check fit/.test(label) ? "warn" : /Rejected|Not a fit|Do not/.test(label) ? "bad" : "");
@@ -179,7 +188,15 @@ async function settingsPage(note = "") {
     <div class="card"><h3>Claims reps may use</h3><p class="sub">The only product claims a message may make, in these words.</p>${chips(pos.claims, "claim")}
       <div class="rowx"><button class="btn-primary" data-save="claims">Save claims</button></div></div>
     <div class="card"><h3>Customer stories</h3><p class="sub">The agent matches these to each account and uses one as proof. Results and quotes must come from Corgi's own pages.</p>
-      ${pos.stories.map((x, i) => `<div class="story"><div><b>${esc(x.customer)}</b><div class="sub">${esc(x.result)}</div></div><div class="rowx" style="margin:0;flex-wrap:nowrap"><button class="ghost" data-story="${i}">Edit</button><button class="ghost" data-rmstory="${i}">Remove</button></div></div>`).join("")}
+      ${pos.stories.map((x, i) => { const l = storyLink(x); return `<details class="storyrow"><summary title="Click to see the full story"><span class="caret" aria-hidden="true">›</span><span class="who"><b>${esc(x.customer)}</b><span class="tag ${l.kind === "Case study" ? "tag-strong" : ""}">${l.kind}</span></span><span class="sub">${esc(x.result)}</span></summary>
+        <div class="storybody"><dl>
+          <dt>What they do</dt><dd>${esc(x.what)}</dd>
+          <dt>Their situation</dt><dd>${esc(x.situation)}</dd>
+          <dt>Result</dt><dd>${esc(x.result)}</dd>
+          <dt>Quote</dt><dd>“${esc(x.quote)}”<div class="sub">${esc(x.speaker)}</div></dd>
+          <dt>Used when the prospect</dt><dd>${esc(x.useWhen)}<div class="sub">A matching hint for the agent. Never written into a message.</div></dd></dl>
+          <div class="rowx"><a class="ghost" href="${esc(l.href)}" target="_blank" rel="noopener">${l.label}</a>${l.quoteHref ? `<a class="ghost" href="${esc(l.quoteHref)}" target="_blank" rel="noopener">See the quote on the homepage ↗</a>` : ""}<button class="ghost" data-story="${i}">Edit</button><button class="ghost" data-rmstory="${i}">Remove</button></div>
+          ${l.kind === "Case study" ? "" : '<p class="sub">Corgi has no separate page for this customer. The quote is published on its homepage, and the link opens it there.</p>'}</div></details>`; }).join("")}
       <div class="rowx"><button class="ghost" data-story="new">+ Add a story</button><button class="btn-primary" data-save="stories">Save stories</button></div></div>
     <div class="card"><h3>Segments, buyers and competitors</h3><p class="sub">Longer guidance, edited as text.</p>
       ${pos.sections.filter((x) => ["3", "4", "5", "7", "8"].includes(x.id)).map((x) => `<div class="story"><div><b>${esc(x.title)}</b><div class="sub">${esc(x.text.replace(/[#*>|]/g, "").replace(/\s+/g, " ").slice(0, 110))}…</div></div><button class="ghost" data-section="${x.id}">Edit text</button></div>`).join("")}</div>
@@ -236,7 +253,7 @@ async function settingsClick(t) {
       { key: "situation", label: "The situation they were in", value: x.situation, long: true, rows: 2 }, { key: "result", label: "The result, in one line (as Corgi's page states it)", value: x.result, long: true, rows: 2 },
       { key: "quote", label: "Quote, word for word", value: x.quote, long: true }, { key: "speaker", label: "Who said it (name, title, company)", value: x.speaker },
       { key: "useWhen", label: "Use when the prospect… (a matching hint, never shown as a fact)", value: x.useWhen, long: true, rows: 2 },
-      { key: "url", label: "Link to the story on corgi.insure", value: x.url }, { key: "quoteUrl", label: "Link to the quote, if it is on a different page", value: x.quoteUrl }]);
+      { key: "url", label: "Where Corgi published it: the case-study page, or corgi.insure if it is only a homepage testimonial", value: x.url }, { key: "quoteUrl", label: "Link to the quote, only if it is on a different page from the one above", value: x.quoteUrl }]);
     if (!v) return;
     if (i < 0) pos.stories.push(v); else pos.stories[i] = v;
     return settingsPage();
@@ -486,12 +503,12 @@ function render(flash = false) {
         : `<div class="rowx" style="margin-top:0"><button class="ghost" data-contacts>Search Apollo for more senior contacts ${cost(apollo.cost.contacts)}</button></div>`}<p class="sub">Apollo hides last names and emails until you reveal a contact. Nothing is spent without your confirmation.</p>`
         : startup && b.account.domain ? `<h4>Other people at the company (Apollo)</h4>${needKey("apollo", "More contacts would appear here", "Senior people in finance, operations, legal, people and security, ranked by their part in an insurance purchase, with a button to look up each work email.", "rows")}` : ""}
       ${(b.personasToFind ?? []).length ? `<h4>Roles with no named person</h4><div class="chips">${b.personasToFind.map((x) => `<a class="chip" href="${esc(x.find_url)}" target="_blank" rel="noopener">${esc(x.role)} ↗</a>`).join("")}</div><p class="sub">Each opens a LinkedIn search.</p>` : ""}`,
-    Proof: () => (b.proof ?? []).map((x) => `<div class="card"><div class="rowx" style="margin:0 0 6px;justify-content:space-between"><h3>${esc(x.customer)}</h3><a class="ghost" href="${esc(x.url)}" target="_blank" rel="noopener">Read on corgi.insure ↗</a></div>
+    Proof: () => (b.proof ?? []).map((x) => `<div class="card"><div class="rowx" style="margin:0 0 6px;justify-content:space-between"><h3>${esc(x.customer)}</h3><a class="ghost" href="${esc(storyLink(x).href)}" target="_blank" rel="noopener">${storyLink(x).label}</a></div>
         <div class="sub">${esc(x.what)}</div>
         <h4>Why the agent matched them</h4><p style="margin:0">${esc(x.why_similar)}</p><p class="sub" style="margin:4px 0 0">The agent's reasoning, not a Corgi claim. Only the one-liner and the quote below go into messages.</p>
         ${block("One-liner for a message", `${x.customer}: ${x.situation.charAt(0).toLowerCase()}${x.situation.slice(1)}. ${x.result}.`)}
         ${block(`Quote · ${x.speaker}`, `“${x.quote}”`)}
-        ${x.quoteUrl && x.quoteUrl !== x.url ? `<p class="sub">The quote is on <a href="${esc(x.quoteUrl)}" target="_blank" rel="noopener">Corgi's homepage</a>; the story is on the page linked above.</p>` : ""}</div>`).join("")
+        ${x.quoteUrl && x.quoteUrl !== x.url ? `<p class="sub">The quote is on <a href="${esc(storyLink(x).quoteHref)}" target="_blank" rel="noopener">Corgi's homepage</a>; the story is on the page linked above.</p>` : ""}</div>`).join("")
       || `<div class="empty"><b>No close customer story</b>${b.account.segment === "trucking" ? "Corgi has published no customer story for trucking, so the messages use no customer proof." : "None of Corgi's published customer stories matches this account's situation closely enough, so the messages use a product claim."}</div>`,
     Messages: () => b.messages.map((m, i) => `<div class="card ${flash ? "flash" : ""}"><h3>${esc(m.contact)}</h3><div class="sub">${esc(m.title)}</div>
         <div class="sub" style="margin-top:6px">${m.nurture ? "Nurture draft: no signal passed. " : ""}Signal used: ${esc(m.signal_used ?? "none")}${m.proof_used ? ` · Customer story: ${esc(m.proof_used)}` : ""}</div>
@@ -648,5 +665,5 @@ document.addEventListener("click", async (e) => {
 });
 
 const params = new URLSearchParams(location.search);
-refresh().then(() => (params.get("view") === "signals" ? signalsPage() : params.get("view") === "settings" ? settingsPage() : params.get("run") ? openRun(params.get("run"), params.get("tab") ?? undefined) : home())).then(() => { if (params.get("full") && current) { $("#main").classList.add("full"); render(); } if (params.get("side") === "collapsed") collapse(true); return params.get("keys") && keysDialog(params.get("keys")); }).catch(offline);
+refresh().then(() => (params.get("view") === "signals" ? signalsPage() : params.get("view") === "settings" ? settingsPage() : params.get("run") ? openRun(params.get("run"), params.get("tab") ?? undefined) : home())).then(() => { const row = params.get("story") && document.querySelectorAll(".storyrow")[params.get("story")]; if (row) { row.open = true; row.scrollIntoView({ block: "center" }); } }).then(() => { if (params.get("full") && current) { $("#main").classList.add("full"); render(); } if (params.get("side") === "collapsed") collapse(true); return params.get("keys") && keysDialog(params.get("keys")); }).catch(offline);
 window.addEventListener("unhandledrejection", (e) => e.reason instanceof TypeError && offline());

@@ -404,3 +404,21 @@ body.auth { display:block; overflow:auto; background:var(--corgi-white); }
 /* Guests can read the positioning page and the account list, not change them */
 body.guest .pagebody [data-save], body.guest .pagebody [data-addbtn], body.guest .pagebody [data-addgroup], body.guest .pagebody .addchip, body.guest .pagebody [data-rm], body.guest .pagebody [data-rmgroup], body.guest .pagebody [data-rmstory], body.guest .pagebody [data-story], body.guest .pagebody [data-section], body.guest .item .del { display:none; }
 body.guest .pagebody textarea { pointer-events:none; background:var(--corgi-paper); }
+
+/* Customer stories on the positioning page: click a row to read the whole story */
+.storyrow { border-top:1px solid var(--corgi-border-soft); }
+.storyrow summary { list-style:none; cursor:pointer; display:grid; grid-template-columns:16px minmax(0,1fr); gap:2px 8px; padding:12px 8px; border-radius:12px; transition:background var(--t-fast) var(--ease-out); }
+.storyrow summary::-webkit-details-marker { display:none; }
+.storyrow summary:hover { background:var(--corgi-orange-wash); }
+.storyrow .caret { grid-row:1 / span 2; color:var(--corgi-muted); font-size:18px; line-height:1.2; transition:transform var(--t-fast) var(--ease-out); }
+.storyrow[open] .caret { transform:rotate(90deg); color:var(--corgi-orange); }
+.storyrow .who { display:flex; align-items:center; gap:8px; flex-wrap:wrap; } .storyrow .who b { color:var(--corgi-ink); }
+.storyrow .tag { font-size:11px; padding:1px 10px; border-radius:var(--radius-pill); background:var(--corgi-paper); color:var(--corgi-body); border:1px solid var(--corgi-border); }
+.storyrow .tag-strong { background:var(--corgi-orange-tint); border-color:var(--corgi-orange-tint); color:var(--corgi-ink); }
+.storyrow summary .sub { grid-column:2; }
+.storybody { padding:4px 8px 16px 32px; }
+.storybody dl { display:grid; grid-template-columns:170px minmax(0,1fr); gap:10px 16px; margin:8px 0 14px; }
+.storybody dt { color:var(--corgi-muted); font-size:13px; } .storybody dd { margin:0; color:var(--corgi-ink); }
+@container brief (max-width:620px) { .storybody dl { grid-template-columns:1fr; gap:2px 0; } .storybody dt { margin-top:10px; } }
+@media (max-width:860px) { .storybody { padding-left:8px; } .storybody dl { grid-template-columns:1fr; gap:2px 0; } .storybody dt { margin-top:10px; } }
+body.guest .storybody [data-story], body.guest .storybody [data-rmstory] { display:none; }

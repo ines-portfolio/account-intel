@@ -6,7 +6,7 @@ It is a chat app that runs on your laptop. Every account keeps its own brief and
 
 ## Try it live
 
-The app is deployed at **https://account-intel-7iz2.onrender.com**. It needs a sign-in: to get credentials, contact me at inesg.gtm@gmail.com.
+The app is deployed at **https://ines-gouveia-gtm-challenge.onrender.com**. It needs a sign-in: to get credentials, contact me at inesg.gtm@gmail.com.
 
 It runs on a free server that sleeps when nobody uses it, so the first page can take up to a minute to load. The ten saved accounts are always there; accounts researched on the live copy are cleared when the server restarts.
 
