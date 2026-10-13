@@ -1,0 +1,427 @@
+{
+ "account": {
+  "name": "Vanta",
+  "domain": "vanta.com",
+  "segment": "startups",
+  "slug": "vanta-com"
+ },
+ "ranAt": "2026-10-13T02:27:43.006Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Vanta \u00b7 vanta.com \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "9 page, 3 sec, 2 jobs, 28 news, 15 search \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "fit"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "2 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "9 items about 2 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "3 passed, 1 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Bland, Eragon"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "2 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "Work it: strong signal",
+  "reason": "Launched New Agent to Unify Internal and Third-Party Risk"
+ },
+ "research": {
+  "name": "Vanta",
+  "one_liner": "Automated security and compliance platform for SOC 2, HIPAA, ISO 27001, PCI, and GDPR compliance certification.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "San Francisco, California, United States",
+    "source_id": "S29"
+   },
+   {
+    "label": "Headcount",
+    "value": "1,000-2,000 employees (+80% YoY) (estimate from LinkedIn database)",
+    "source_id": "S29"
+   },
+   {
+    "label": "Founded",
+    "value": "2018",
+    "source_id": "S29"
+   },
+   {
+    "label": "Funding",
+    "value": "$503.1M total funding across 8 prior rounds",
+    "source_id": "S29"
+   },
+   {
+    "label": "Revenue",
+    "value": "$300M ARR (Annual Recurring Revenue)",
+    "source_id": "S18"
+   },
+   {
+    "label": "Growth",
+    "value": "+80% YoY headcount growth (LinkedIn database estimate)",
+    "source_id": "S29"
+   },
+   {
+    "label": "Sells to",
+    "value": "Startups, mid-market, and enterprise companies across technology, healthcare, government, and fintech",
+    "source_id": "S1"
+   },
+   {
+    "label": "Business model",
+    "value": "Software-as-a-Service (SaaS) trust management and GRC platform",
+    "source_id": "S29"
+   },
+   {
+    "label": "Open roles",
+    "value": "83 open roles on Ashby",
+    "source_id": "S5"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Scaling the Agentic Trust Platform to unify compliance, risk, and security assessments using AI",
+    "source_id": "S21"
+   },
+   {
+    "text": "Expanding international presence and hiring across remote US, UK, Canada, Ireland, and Japan",
+    "source_id": "S5"
+   },
+   {
+    "text": "Accelerating upmarket enterprise motion and growing ARR past $300M",
+    "source_id": "S18"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2025-07-23",
+    "event": "Raised a $150 million Series D funding round at a $4.15 billion valuation",
+    "source_id": "S38"
+   },
+   {
+    "date": "2025-11-18",
+    "event": "Introduced the Agentic Trust Platform to unify compliance, risk, and security assessments",
+    "source_id": "S21"
+   },
+   {
+    "date": "2026-04-28",
+    "event": "Received FedRAMP 20x Moderate Authorization",
+    "source_id": "S17"
+   },
+   {
+    "date": "2026-04-29",
+    "event": "Crossed $300M ARR as growth accelerates from AI",
+    "source_id": "S18"
+   },
+   {
+    "date": "2026-06-02",
+    "event": "Launched new agent to unify internal and third-party risk",
+    "source_id": "S14"
+   },
+   {
+    "date": "2026-06-09",
+    "event": "Appointed John McCauley as Chief Financial Officer",
+    "source_id": "S19"
+   }
+  ],
+  "fit": {
+   "verdict": "fit",
+   "reason": "Vanta is headquartered in San Francisco, CA (US) and fits the Corgi US tech company startup/growth stage profile while actively expanding operations."
+  }
+ },
+ "people": [
+  {
+   "name": "Christina Cacioppo",
+   "title": "Cofounder and CEO",
+   "role": "Economic buyer",
+   "why": "CEO and cofounder; ultimate economic decision maker for company-wide operations and insurance strategy.",
+   "source_id": "S34",
+   "confidence": "high",
+   "likely_reports": [
+    "Head of Finance / CFO",
+    "General Counsel",
+    "Head of People",
+    "CISO"
+   ],
+   "profile_url": "https://linkedin.com/in/ccacioppo",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Christina%20Cacioppo%20Vanta"
+  },
+  {
+   "name": "John McCauley",
+   "title": "Chief Financial Officer",
+   "role": "Runs the process",
+   "why": "Joined as CFO in June 2026; oversees finance, accounting, and owns the financial and risk operations process.",
+   "source_id": "S29",
+   "confidence": "high",
+   "likely_reports": [
+    "Controller",
+    "VP Finance"
+   ],
+   "profile_url": "https://linkedin.com/in/john-mccauley-84826a6",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=John%20McCauley%20Vanta"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "General Counsel",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=General%20Counsel%20Vanta"
+  },
+  {
+   "role": "Head of People",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20Vanta"
+  },
+  {
+   "role": "CISO / Head of Security",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=CISO%20%2F%20Head%20of%20Security%20Vanta"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "found",
+   "detail": "Hiring 7 enterprise-sales or compliance roles"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No Form D in the last 90 days; 3 recent headlines to read"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "checked",
+   "detail": "83 open roles in 2 US states"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "4 finance, ops, legal and people roles read, none mention insurance"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "found",
+   "detail": "New Chief Financial Officer joined in June 2026"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "found",
+   "detail": "Launched New Agent to Unify Internal and Third-Party Risk"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "2 recent headlines to read"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "checked",
+   "detail": "4 recent headlines to read"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "checked",
+   "detail": "9 public items about 2 contacts read, none tied to an insurance moment"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "Last Form D filed 2026-06-26"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Bland",
+   "what": "Sells to some of the largest companies in the world",
+   "situation": "Large customers require a lot of coverage, and each new customer can bring new requirements",
+   "result": "Adds coverage as customers ask for it without starting a new process each time",
+   "quote": "Corgi takes care of everything, we don't have to go through the hassle of a new process every time a customer needs something new.",
+   "speaker": "Isaiah N. Granet, Co-Founder & CEO, Bland",
+   "useWhen": "is moving upmarket and keeps getting new insurance requirements from customers",
+   "url": "https://www.corgi.insure/",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Vanta is selling to larger enterprise customers and moving upmarket, matching Bland which also sells to some of the largest companies in the world and faces new insurance requirements from them."
+  },
+  {
+   "customer": "Eragon",
+   "what": "AI and enterprise SaaS",
+   "situation": "Landed a deal with one of the world's largest companies that came with a long list of insurance requirements on the customer's timeline",
+   "result": "Met every requirement and closed the contract in days, not weeks",
+   "quote": "The Corgi team, in a matter of minutes, took care of all the insurance requirements I needed in order to land our first 7-figure enterprise contract",
+   "speaker": "Josh Sirota, Founder & CEO, Eragon",
+   "useWhen": "is closing its first large enterprise contract; has a deal waiting on insurance requirements",
+   "url": "https://www.corgi.insure/customers/eragon",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Vanta is expanding its enterprise sales motion, similar to Eragon which landed deals with very large companies that came with specific insurance requirements."
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Launched New Agent to Unify Internal and Third-Party Risk",
+   "signal_id": "ai_launch",
+   "strength": "strong",
+   "coverage": [
+    "AI Liability",
+    "Tech E&O"
+   ],
+   "quote": "Vanta Launches New Agent to Unify Internal and Third-Party Risk",
+   "source_id": "S14",
+   "date": "2026-06-02",
+   "person": null,
+   "how_to_use": "Reference their recent AI product expansion when discussing specialized AI Liability and Tech E&O coverage.",
+   "maps_to": "AI product or agent launch",
+   "source_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUGZCekV2Nkc1dmVpc3dKcDYyRmhiUzY1M2diRzhxb2lUdHpYUmlkS3pUM21tODlSRG8wOVJKVXFzR2Q1WTNURnFtSXZkYzcyZFl1VzloOGhqLUg0b3NkODJLcDZBV21oRGVsMlRxZ0M2SU83N0lrNUI1TGNud3F6bHF2MGZkTlYyS1Z6ZW9UeWM5blVVckx3SmJha2x2T0YwVzVDYTF0MkdVc0hJUjR5cEJhRHRqTHBSb0JPYQ?oc=5",
+   "found_by": "Searches news for launch announcements and reads the company's blog and product pages.",
+   "why_it_matters": "AI output is a new kind of liability, and buyers now ask about it in security reviews.",
+   "angle": "Customers ask how AI output is covered. Ask whether AI liability is part of their Tech E&O today."
+  },
+  {
+   "signal_id": "enterprise_push",
+   "maps_to": "Selling to bigger customers",
+   "coverage": [
+    "Tech E&O",
+    "Cyber Liability",
+    "General Liability"
+   ],
+   "person": null,
+   "detected_by": "code",
+   "headline": "Hiring 7 enterprise-sales or compliance roles",
+   "strength": "strong",
+   "quote": "Open roles on Ashby that point to selling to larger customers: Solutions Engineer (Upmarket, Pre-Sales) - EMEA; GRC Pre-Sales Consultant / Solutions Engineer \u2013 EMEA; Manager, Solutions Engineering - EMEA; Strategic Account Executive, West; Head of Enterprise Sales, EMEA..",
+   "source_id": "S44",
+   "date": "2026-10-13",
+   "how_to_use": "Enterprise customers ask for a certificate of insurance (Tech E&O and cyber) before they sign. Ask whether a deal is waiting on one.",
+   "source_url": "https://jobs.ashbyhq.com/vanta",
+   "found_by": "Reads every open role and flags enterprise-sales, solutions and compliance titles. Fetches the company's security, trust, customers and enterprise pages.",
+   "why_it_matters": "Enterprise procurement asks for a certificate of insurance before signing. This is usually the first hard insurance deadline a startup hits, and a deal is waiting on it.",
+   "angle": "Enterprise customers ask for a certificate of insurance (Tech E&O and cyber) before they sign. Ask whether a deal is waiting on one."
+  },
+  {
+   "headline": "New Chief Financial Officer joined in June 2026",
+   "signal_id": "new_leader",
+   "strength": "weak",
+   "coverage": [
+    "All lines"
+   ],
+   "quote": "John McCauley Joins Vanta as Chief Financial Officer to Lead Next Chapter of Growth",
+   "source_id": "S19",
+   "date": "2026-06-09",
+   "person": "John McCauley",
+   "how_to_use": "Dated 2026-06-09, so supporting evidence only. Mention his arrival leading finance into Vanta's next chapter of growth when introducing Corgi's scalable coverage.",
+   "maps_to": "New finance, legal, people or security lead",
+   "source_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbGhBRVBhNjRqbmZNd1I1bkM0cHpiYjVKbmJHTXR0NlQ4c0UyWXJyVzFuRW5OaU5HMW1wMmVfQjF4RGFheWFPd2ZSWXJnTnU4MFBBZDBfNVNLblRxa1N3MEt2QkRuNGdYRGFla2lkbGpjZGgzbGt1QzJoelhmNnJ3TEZpU0QtMDJwSG9td0JlcVp3ak1ab0lDaUZWZEJtZ3NtMmlVR2dWQWExSEhGLWItRnZ4anczX0RseGxRM2g2bnFjek1jdUFHdzFrdElGZ0NHdHNxVl9DVQ?oc=5",
+   "found_by": "Finds each top contact's public profile and reads the start date of their current role. Searches news for appointment announcements.",
+   "why_it_matters": "New leaders review the vendors they inherit in their first months, and insurance sits with exactly these roles.",
+   "angle": "New leaders review what they inherit. Ask what the insurance setup looks like, without congratulating them on a job you only read about."
+  }
+ ],
+ "rejected": [
+  {
+   "candidate": "Funding",
+   "reason": "The most recent Form D or funding announcements are from July 2025, which is outside the 0-90 day window."
+  }
+ ],
+ "bottomLine": "strong why-now",
+ "messages": [
+  {
+   "contact": "Christina Cacioppo",
+   "title": "Cofounder and CEO",
+   "signal_used": "ai_launch",
+   "nurture": false,
+   "call_opener": "Hi Christina, [Your name] at Corgi. Saw Vanta launched the new agent to unify internal and third-party risk. That kind of AI expansion usually makes enterprise customers ask how AI output is covered under Tech E&O. Is AI liability part of your coverage today?",
+   "email": {
+    "subject": "Vanta's new AI agent",
+    "body": "Saw Vanta launched the new agent to unify internal and third-party risk. That kind of AI expansion usually makes enterprise customers ask how AI output is covered under Tech E&O. Is AI liability part of your coverage today? As Bland's CEO noted, Corgi takes care of everything so you do not have to go through the hassle of a new process every time a customer needs something new. Worth a look?\n\n[Your name]"
+   },
+   "followup": "Checking in on this, Christina. When launching new AI risk agents, figuring out Tech E&O and AI liability quickly keeps enterprise deals moving. Do you have that handled, or would it be helpful to see a quote in minutes?\n\n[Your name]",
+   "linkedin_note": "Saw Vanta launched the new agent for risk. Enterprise customers usually ask how AI output is covered under Tech E&O. Is AI liability part of your setup today?",
+   "linkedin_dm": "Saw Vanta launched the new agent for risk. That AI expansion usually triggers questions about Tech E&O and AI liability coverage. Is that covered on your end today?",
+   "why": "Used the AI launch signal for the CEO (S14), linked it to Tech E&O and AI liability requirements, asked if it is covered, and used the Bland customer story for proof.",
+   "proof_used": "Bland",
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": []
+  },
+  {
+   "contact": "John McCauley",
+   "title": "Chief Financial Officer",
+   "signal_used": "new_leader",
+   "nurture": false,
+   "call_opener": "Hi John, [Your name] at Corgi. Saw the news that you joined Vanta as CFO in June 2026. New finance leaders reviewing operations usually audit insurance across all lines to prep for growth. What does your current setup look like?",
+   "email": {
+    "subject": "joining Vanta as CFO",
+    "body": "Saw the news that you joined Vanta as CFO in June 2026. New finance leaders reviewing operations usually audit insurance across all lines to prep for growth. What does your current setup look like? With Corgi, you get a quote in minutes and same-day binding directly with the carrier. Worth a look?\n\n[Your name]"
+   },
+   "followup": "Checking in, John. When stepping into a CFO role during rapid growth, reviewing insurance lines like D&O and Cyber is usually top of mind. Do you have that covered, or is it worth a quick look?\n\n[Your name]",
+   "linkedin_note": "Saw the news that you joined Vanta as CFO in June 2026. New finance leaders reviewing operations usually audit insurance across all lines. What does your setup look like?",
+   "linkedin_dm": "Saw you joined Vanta as CFO in June 2026. New finance leaders reviewing operations usually audit insurance across all lines. What does your setup look like?",
+   "why": "Used the new leader signal naming John McCauley (S19), framed it around auditing all insurance lines for growth, asked about the current setup, and used a Corgi product claim for proof.",
+   "proof_used": null,
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": []
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

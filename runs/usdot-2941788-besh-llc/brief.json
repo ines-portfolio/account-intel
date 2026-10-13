@@ -1,0 +1,206 @@
+{
+ "account": {
+  "name": "Besh LLC",
+  "domain": "beshexpress.com",
+  "usdot": "2941788",
+  "city": "AURORA",
+  "segment": "trucking",
+  "slug": "usdot-2941788-besh-llc"
+ },
+ "ranAt": "2026-10-13T02:28:35.801Z",
+ "model": null,
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Besh LLC \u00b7 beshexpress.com \u00b7 trucking"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "1 page"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "Work it: moderate signal"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "1 found"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "1 contact"
+  }
+ ],
+ "verdict": {
+  "label": "Work it: moderate signal",
+  "reason": "Liability coverage with CorePointe Insurance Company has a filed end date of October 22 (9 days) and no replacement is on file. 2 earlier end dates on this policy were withdrawn, so it may be reinstated."
+ },
+ "research": {
+  "one_liner": "For-hire trucking fleet based in Aurora, CO.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "Aurora, CO",
+    "source_id": "S2"
+   },
+   {
+    "label": "Fleet",
+    "value": "105 power units, 105 drivers",
+    "source_id": "S2"
+   },
+   {
+    "label": "Status",
+    "value": "USDOT active; operating authority active",
+    "source_id": "S2"
+   },
+   {
+    "label": "Phone",
+    "value": "2204000000 (business line on the federal registration)",
+    "source_id": "S2"
+   },
+   {
+    "label": "Safety rating",
+    "value": "None on file",
+    "source_id": "S2"
+   },
+   {
+    "label": "Current liability insurer",
+    "value": "CorePointe Insurance Company, since 2026-01-29",
+    "source_id": "S2"
+   }
+  ],
+  "priorities": [],
+  "timeline": [],
+  "fit": {
+   "verdict": "fit",
+   "reason": "Liability coverage with CorePointe Insurance Company has a filed end date of October 22 (9 days) and no replacement is on file. 2 earlier end dates on this policy were withdrawn, so it may be reinstated."
+  }
+ },
+ "people": [
+  {
+   "name": "Sherzod Khatamov",
+   "title": "Company officer on the federal registration",
+   "role": "Economic buyer (inference)",
+   "why": "Fleet owners usually sign for insurance at this fleet size.",
+   "source_id": "S2",
+   "confidence": "medium",
+   "likely_reports": [
+    "Safety director",
+    "Dispatcher / operations lead"
+   ],
+   "phone": "2204000000",
+   "phone_note": "Business line on the federal registration",
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Sherzod%20Khatamov%20Besh%20LLC"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Safety director",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Safety%20director%20Besh%20LLC"
+  },
+  {
+   "role": "Dispatcher",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Dispatcher%20Besh%20LLC"
+  },
+  {
+   "role": "Operations manager",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20manager%20Besh%20LLC"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "truck_end_date",
+   "name": "Coverage end date, no replacement",
+   "priority": 1,
+   "status": "checked",
+   "detail": "Not the case in the current filings"
+  },
+  {
+   "id": "truck_reversed",
+   "name": "End date filed before and withdrawn",
+   "priority": 2,
+   "status": "found",
+   "detail": "Liability coverage ends October 22; no replacement policy on file"
+  },
+  {
+   "id": "truck_renewal",
+   "name": "Renewal estimate",
+   "priority": 3,
+   "status": "checked",
+   "detail": "Estimated renewal is 9 days away"
+  },
+  {
+   "id": "truck_churn",
+   "name": "Frequent insurer changes",
+   "priority": 3,
+   "status": "found",
+   "detail": "4 liability insurers since 2021"
+  }
+ ],
+ "proof": [],
+ "signals": [
+  {
+   "headline": "Liability coverage ends October 22; no replacement policy on file",
+   "signal_id": "truck_reversed",
+   "maps_to": "End date, no replacement, earlier notices reversed",
+   "strength": "moderate",
+   "coverage": [
+    "Auto liability",
+    "Cargo"
+   ],
+   "quote": "Policy CIC100955501-50004 with CorePointe Insurance Company, effective 2026-01-29, end date 2026-10-22. No later liability filing on record.",
+   "source_id": "S2",
+   "source_url": "https://data.transportation.gov/resource/3uet-3z4i.json?usdot_number=2941788",
+   "date": "2026-10-13",
+   "how_to_use": "Call. Ask whether the end date is still in motion; do not assert a deadline or a reason.",
+   "found_by": "Counts earlier cancellation filings against the policy that is still active.",
+   "why_it_matters": "The deadline is real but may be reversed again, so the rep asks and does not assert."
+  },
+  {
+   "headline": "4 liability insurers since 2021",
+   "signal_id": "truck_churn",
+   "maps_to": "Supporting fact",
+   "strength": "weak",
+   "coverage": [
+    "Auto liability"
+   ],
+   "quote": "NATIONAL CASUALTY COMPANY; SENTRY SELECT INSURANCE COMPANY; COREPOINTE INSURANCE COMPANY; NAVIGATORS INSURANCE COMPANY",
+   "source_id": "S2",
+   "source_url": "https://data.transportation.gov/resource/3uet-3z4i.json?usdot_number=2941788",
+   "date": "2026-10-13",
+   "how_to_use": "Background only: suggests they shop on price (inference). Do not mention.",
+   "found_by": "Counts distinct insurers across the carrier's current and past filings.",
+   "why_it_matters": "Suggests the carrier shops on price. Background for the rep, never mentioned to the prospect."
+  }
+ ],
+ "rejected": [],
+ "bottomLine": "Liability coverage with CorePointe Insurance Company has a filed end date of October 22 (9 days) and no replacement is on file. 2 earlier end dates on this policy were withdrawn, so it may be reinstated.",
+ "messages": [
+  {
+   "contact": "Sherzod Khatamov",
+   "title": "Company officer on the federal registration",
+   "signal_used": "Liability coverage ends October 22; no replacement policy on file",
+   "nurture": false,
+   "call_opener": "Hi Sherzod, [Your name] at Corgi, we're a trucking insurance carrier. I'm calling because your federal filing shows an end date of October 22 on your liability policy with CorePointe Insurance. Is that still in motion, and is it worth us putting a quote next to it this week?",
+   "email": {
+    "subject": "your oct 22 filing",
+    "body": "Hi Sherzod,\n\nYour federal liability filing shows an end date of October 22 on the CorePointe Insurance policy. Is that still in motion?\n\nCorgi is a licensed insurance carrier writing auto liability and cargo for fleets directly, with no broker in between. If you want a second number before October 22, we can quote it this week.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hi Sherzod, the October 22 date on your filing is getting close. If a quote from a second carrier would help, I can turn one around this week.\n\n[Your name]",
+   "linkedin_note": "Hi Sherzod, [Your name] at Corgi, a trucking insurance carrier. Your federal filing shows a liability end date of October 22. If the replacement isn't settled, happy to quote before then.",
+   "linkedin_dm": "Hi Sherzod, your federal liability filing shows an end date of October 22 with CorePointe Insurance. We are a carrier writing auto liability and cargo for fleets directly. If the replacement isn't settled, want a quote before then?",
+   "why": "Leads with the date from the public federal filing (S2), names where it was seen, and never says why the policy is ending. No proof line: Corgi has published no trucking customer or speed claim.",
+   "lint": []
+  }
+ ],
+ "notes": [
+  "A replacement policy can be filed any day. Re-run this account on the day you reach out.",
+  "The filings never say why a policy is ending. Do not state or imply a reason."
+ ]
+}

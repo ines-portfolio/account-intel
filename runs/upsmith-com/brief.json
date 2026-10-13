@@ -1,0 +1,464 @@
+{
+ "account": {
+  "name": "UpSmith",
+  "domain": "upsmith.com",
+  "segment": "startups",
+  "slug": "upsmith-com"
+ },
+ "ranAt": "2026-10-13T02:27:28.272Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Upsmith \u00b7 upsmith.com \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "4 page, 12 news, 13 search \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "fit"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "4 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "13 items about 4 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "3 passed, 5 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Imagine AI"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "2 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "Work it: strong signal",
+  "reason": "UpSmith raises $10M Series A led by SemperVirens"
+ },
+ "research": {
+  "name": "UpSmith",
+  "one_liner": "AI profit engine deploying autonomous agents to handle lead response, appointment bookings, and estimate follow-ups for home services operators.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "Dallas, Texas, United States",
+    "source_id": "S14"
+   },
+   {
+    "label": "Headcount",
+    "value": "28 employees (database estimate)",
+    "source_id": "S18"
+   },
+   {
+    "label": "Revenue",
+    "value": "$1,000,000 (database estimate)",
+    "source_id": "S18"
+   },
+   {
+    "label": "Growth",
+    "value": "+100.0% YoY employee growth (database estimate)",
+    "source_id": "S18"
+   },
+   {
+    "label": "Founded",
+    "value": "2022",
+    "source_id": "S18"
+   },
+   {
+    "label": "Funding",
+    "value": "$10M Series A announced October 2026; $18.3M total funding raised to date",
+    "source_id": "S2"
+   },
+   {
+    "label": "Sells to",
+    "value": "HVAC, plumbing, and electrical home-services operators",
+    "source_id": "S1"
+   },
+   {
+    "label": "Business model",
+    "value": "B2B SaaS subscription starting at $500/month per module up to $3,000/month for the full platform",
+    "source_id": "S15"
+   },
+   {
+    "label": "Open roles",
+    "value": "Hiring across engineering and operational roles at Dallas HQ",
+    "source_id": "S14"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Scaling the 'Jenny' AI agent platform across HVAC, plumbing, and electrical contractor customer bases",
+    "source_id": "S1"
+   },
+   {
+    "text": "Hiring engineering and GTM talent at the Dallas headquarters following the Series A raise",
+    "source_id": "S22"
+   },
+   {
+    "text": "Deepening integration and certified marketplace positioning within ServiceTitan",
+    "source_id": "S13"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2026-10-05",
+    "event": "UpSmith raised $10M Series A funding to expand its AI profit engine for home services",
+    "source_id": "S2"
+   },
+   {
+    "date": "2026-02-24",
+    "event": "CEO Wyatt Smith featured on The Deal Table discussing agentic AI in skilled trades",
+    "source_id": "S20"
+   },
+   {
+    "date": "2026-02-10",
+    "event": "Wyatt Smith shared update highlighting accelerating growth and upward momentum for 2026",
+    "source_id": "S19"
+   },
+   {
+    "date": "2026-01-26",
+    "event": "Wyatt Smith discussed workforce retention and incentive software on the Owned and Operated podcast",
+    "source_id": "S28"
+   },
+   {
+    "date": "2025-03-25",
+    "event": "UpSmith unveiled JennyAI for skilled trades lead generation",
+    "source_id": "S3"
+   },
+   {
+    "date": "2024-01-24",
+    "event": "UpSmith closed $5M seed funding led by Hannah Grey VC",
+    "source_id": "S5"
+   },
+   {
+    "date": "2022-10-26",
+    "event": "UpSmith announced $3.3M pre-seed round led by a16z and Asymmetric Capital Partners",
+    "source_id": "S26"
+   }
+  ],
+  "fit": {
+   "verdict": "fit",
+   "reason": "UpSmith is a US venture-backed AI SaaS startup headquartered in Dallas, TX with ~28 employees that recently closed a $10M Series A, placing it directly in Corgi's core venture-backed tech segment (Series A package: D&O, Cyber, Tech E&O, AI Liability)."
+  }
+ },
+ "people": [
+  {
+   "name": "Wyatt Smith",
+   "title": "Founder & CEO",
+   "role": "Economic buyer",
+   "why": "Sole C-level executive for a ~28-person startup; owns company budget and signs off on corporate D&O, Cyber, Tech E&O, and AI Liability following their Series A raise.",
+   "source_id": "S18",
+   "confidence": "high",
+   "likely_reports": [
+    "Head of Engineering",
+    "Head of Sales",
+    "Head of Operations"
+   ],
+   "profile_url": "https://linkedin.com/in/wyatt-h-smith",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Wyatt%20Smith%20UpSmith"
+  },
+  {
+   "name": "Spencer Bard",
+   "title": "Head of Engineering",
+   "role": "Influencer",
+   "why": "Leads technical platform and data pipelines; primary evaluator for technical risk, information security reviews, Cyber Liability, and AI Liability.",
+   "source_id": "S16",
+   "confidence": "high",
+   "likely_reports": [
+    "Software Engineer",
+    "AI Software Engineer"
+   ],
+   "profile_url": "https://linkedin.com/in/spencerbard",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Spencer%20Bard%20UpSmith"
+  },
+  {
+   "name": "Austen Wise",
+   "title": "Head of Sales",
+   "role": "Champion",
+   "why": "Leads sales to home-services operators; feels direct deal friction when customer agreements demand proof of insurance or Certificates of Insurance (COIs).",
+   "source_id": "S18",
+   "confidence": "medium",
+   "likely_reports": [
+    "Account Executive",
+    "Sales Development Representative"
+   ],
+   "profile_url": "https://linkedin.com/in/austenwise",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Austen%20Wise%20UpSmith"
+  },
+  {
+   "name": "Bryson Whitney",
+   "title": "Head of Community Engagement | Customer Success",
+   "role": "Champion",
+   "why": "Manages customer relationships and onboarding for trade operators; impacted by enterprise onboarding requirements and customer SLA/liability terms.",
+   "source_id": "S21",
+   "confidence": "medium",
+   "likely_reports": [
+    "Customer Success Specialist",
+    "Implementation Manager"
+   ],
+   "profile_url": "https://linkedin.com/in/brysonwhitney",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Bryson%20Whitney%20UpSmith"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Head of Finance / Controller",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Finance%20%2F%20Controller%20UpSmith"
+  },
+  {
+   "role": "Head of Operations / COO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Operations%20%2F%20COO%20UpSmith"
+  },
+  {
+   "role": "Head of People / HR",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20%2F%20HR%20UpSmith"
+  },
+  {
+   "role": "General Counsel / Legal Counsel",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=General%20Counsel%20%2F%20Legal%20Counsel%20UpSmith"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "found",
+   "detail": "UpSmith raises $10M Series A led by SemperVirens"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "found",
+   "detail": "Austen Wise started as Head of Sales in Sep 2026"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "checked",
+   "detail": "1 recent headline to read"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "found",
+   "detail": "Allison Baum Gates and Rob Biederman join UpSmith's board of directors"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "checked",
+   "detail": "13 public items about 4 contacts read, none tied to an insurance moment"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No Form D on file"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Imagine AI",
+   "what": "AI content marketing automation for mid-market and larger companies",
+   "situation": "An enterprise customer asked for proof of business insurance and quotes from brokers were taking too long",
+   "result": "Went from form to certificate in about two minutes and added D&O the same day",
+   "quote": "It took only about 2 minutes to sign up for insurance. That's another reason I went with Corgi, because it was just so easy. Once we filled out the form, we got our quote, paid, and we already had our insurance.",
+   "speaker": "Sky Yang, Co-Founder & CEO, Imagine AI",
+   "useWhen": "has a customer asking for proof of insurance; is a small team buying insurance for the first time; just raised and needs D&O",
+   "url": "https://www.corgi.insure/customers/imagine-ai",
+   "quoteUrl": "https://www.corgi.insure/customers/imagine-ai",
+   "why_similar": "UpSmith is an AI SaaS startup that recently raised a $10M Series A and needs to buy insurance."
+  }
+ ],
+ "signals": [
+  {
+   "headline": "UpSmith raises $10M Series A led by SemperVirens",
+   "signal_id": "funding",
+   "strength": "strong",
+   "coverage": [
+    "Directors & Officers (D&O)",
+    "Crime"
+   ],
+   "quote": "Dallas-based UpSmith raised a $10 million Series A round to expand its engineering and sales teams and ramp up partnerships.",
+   "source_id": "S33",
+   "date": "2026-10-06",
+   "person": null,
+   "how_to_use": "Congratulate Wyatt on closing the Series A and position Corgi's Series A package (D&O and Crime) to meet standard investor governance covenants.",
+   "maps_to": "Priced funding round",
+   "source_url": "https://dallasinnovates.com/dallas-startup-upsmith-raises-10m-series-a-to-put-ai-to-work-for-home-services-providers/",
+   "found_by": "Looks up the company's Form D filings, which are due within 15 days of a first sale, and searches news for the round announcement.",
+   "why_it_matters": "Investors commonly require D&O within 60 to 90 days of close, and new board seats mean new personal liability.",
+   "angle": "Investors commonly require D&O within 60 to 90 days of close. Ask whether D&O is already in place for the new board."
+  },
+  {
+   "headline": "Allison Baum Gates and Rob Biederman join UpSmith's board of directors",
+   "signal_id": "board",
+   "strength": "strong",
+   "coverage": [
+    "Directors & Officers (D&O)"
+   ],
+   "quote": "SemperVirens General Partner Allison Baum Gates and Rob Biederman, managing partner at Asymmetric Capital Partners, are joining UpSmith\u2019s board.",
+   "source_id": "S33",
+   "date": "2026-10-06",
+   "person": null,
+   "how_to_use": "Highlight the addition of institutional board representatives as an immediate prompt to review and institute dedicated D&O indemnification limits.",
+   "maps_to": "New board member",
+   "source_url": "https://dallasinnovates.com/dallas-startup-upsmith-raises-10m-series-a-to-put-ai-to-work-for-home-services-providers/",
+   "found_by": "Searches news for board appointments.",
+   "why_it_matters": "A new director carries personal liability and often asks for D&O before joining.",
+   "angle": "New directors ask about D&O. Ask whether the policy was reviewed when the board changed."
+  },
+  {
+   "headline": "Austen Wise started as Head of Sales in Sep 2026",
+   "signal_id": "new_leader",
+   "maps_to": "New finance, legal, people or security lead",
+   "strength": "weak",
+   "coverage": [
+    "All lines"
+   ],
+   "quote": "Head of Sales - [UpSmith](https://www.linkedin.com/company/upsmith) (Current) Sep 2026 - Present",
+   "source_id": "S34",
+   "date": "2026-09-01",
+   "person": "Austen Wise",
+   "how_to_use": "Background: recently joined. Not a reason to pitch insurance on its own.",
+   "source_url": "https://linkedin.com/in/austenwise",
+   "found_by": "Finds each top contact's public profile and reads the start date of their current role. Searches news for appointment announcements.",
+   "why_it_matters": "New leaders review the vendors they inherit in their first months, and insurance sits with exactly these roles.",
+   "angle": "New leaders review what they inherit. Ask what the insurance setup looks like, without congratulating them on a job you only read about."
+  }
+ ],
+ "rejected": [
+  {
+   "candidate": "Austen Wise joined as Head of Sales in September 2026",
+   "reason": "new_leader trigger is restricted to finance, legal, people, or security leadership, excluding sales executives."
+  },
+  {
+   "candidate": "Wyatt Smith LinkedIn post regarding AI augmentation (August 31, 2026)",
+   "reason": "Post shares an HBS Alumni profile and product philosophy rather than a funding raise, customer win, compliance milestone, or broker pain."
+  },
+  {
+   "candidate": "JennyAI tool rollout",
+   "reason": "Announced in March 2025, which falls well outside the 6-month window for ai_launch."
+  },
+  {
+   "candidate": "AI voice agent launch mentioned in Series A coverage",
+   "reason": "Framed as an upcoming roadmap objective rather than an active product launch."
+  },
+  {
+   "candidate": "Spencer Bard hiring post for software engineers (April 2026)",
+   "reason": "Published more than 90 days ago, failing the recency criteria for exec_post."
+  }
+ ],
+ "bottomLine": "Strong why-now: UpSmith closed a $10M Series A and added two venture board directors one week ago, creating an immediate, dated governance trigger to lead with Corgi's Series A D&O package.",
+ "messages": [
+  {
+   "contact": "Wyatt Smith",
+   "title": "Founder & CEO",
+   "signal_used": "funding",
+   "nurture": false,
+   "call_opener": "Hi Wyatt, [Your name] at Corgi. I saw UpSmith's $10M Series A announcement led by SemperVirens. Investors commonly require D&O within 60 to 90 days of close, so I'm calling to ask whether D&O is already in place for your new board?",
+   "email": {
+    "subject": "upsmith series a d&o",
+    "body": "Saw UpSmith's $10M Series A announcement led by SemperVirens.\n\nInvestors commonly require D&O within 60 to 90 days of close, so is D&O already in place for your new board?\n\nImagine AI went from form to certificate in about two minutes and added D&O the same day.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hey Wyatt, just floating this back up. Did you get D&O sorted out for the new board following the Series A?\n\n[Your name]",
+   "linkedin_note": "Saw the $10M Series A announcement with SemperVirens. Investors commonly require D&O within 60 to 90 days of close, so is D&O in place for the new board? Corgi gets you a quote in minutes. Let's connect.",
+   "linkedin_dm": "Saw the $10M Series A announcement with SemperVirens. Investors commonly require D&O within 60 to 90 days of close, so is D&O in place for the new board? Worth a look?\n\n[Your name]",
+   "why": "Signal: UpSmith $10M Series A funding round (source: S33). Proof: Imagine AI customer story (source: section 6). Role alignment: Economic buyer / CEO manages board requirements and D&O coverage.",
+   "proof_used": "Imagine AI",
+   "corrections": [
+    "\"Wyatt Smith\" replaced with [Your name] as the sender"
+   ],
+   "lint": []
+  },
+  {
+   "contact": "Austen Wise",
+   "title": "Head of Sales",
+   "signal_used": "new_leader",
+   "nurture": false,
+   "call_opener": "Hi Austen, [Your name] at Corgi. I saw your appointment as Head of Sales at UpSmith. New leaders review what they inherit, so I'm calling to ask what your insurance setup looks like for handling customer contract proof-of-insurance requests?",
+   "email": {
+    "subject": "upsmith sales and insurance",
+    "body": "Saw your appointment as Head of Sales at UpSmith.\n\nNew leaders review what they inherit, so what does your insurance setup look like when customer agreements demand proof of insurance?\n\nImagine AI went from form to certificate in about two minutes.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hey Austen, checking in. How is the insurance setup looking for keeping sales deals moving?\n\n[Your name]",
+   "linkedin_note": "Saw your appointment as Head of Sales at UpSmith. New leaders review what they inherit, so what does your insurance setup look like for customer contract proof demands? Let's connect.",
+   "linkedin_dm": "Saw your appointment as Head of Sales at UpSmith. New leaders review what they inherit, so what does your insurance setup look like for customer contract proof demands? Worth a look?\n\n[Your name]",
+   "why": "Signal: Austen Wise started as Head of Sales in Sep 2026 (source: S34). Proof: Imagine AI customer story (source: section 6). Role alignment: Champion / Sales leader deals directly with COI and contract friction.",
+   "proof_used": "Imagine AI",
+   "corrections": [
+    "\"Austen Wise\" replaced with [Your name] as the sender"
+   ],
+   "lint": []
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

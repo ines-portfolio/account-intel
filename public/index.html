@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Account Intel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Geist+Mono:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<aside id="side">
+  <div class="sidehead"><a class="brand" href="/"><img class="logo-full" src="/corgi-logo.svg" alt="Corgi"><img class="logo-mark" src="/corgi-mark.svg" alt="Corgi"><span>Account Intel</span></a>
+    <button class="x" id="collapse" aria-label="Collapse sidebar" title="Collapse sidebar" aria-expanded="true">«</button></div>
+  <button class="btn-primary" id="new" title="New chat"><span aria-hidden="true">+</span><span class="txt"> New chat</span></button>
+  <div class="label"><span class="txt">Accounts</span> <span id="count"></span></div>
+  <nav id="accounts"></nav>
+  <nav id="tools">
+    <button class="navlink" data-view="settings" title="Corgi positioning"><span class="ico" aria-hidden="true">⚙</span><span class="txt">Corgi positioning</span></button>
+    <button class="navlink" data-view="signals" title="How signals work"><span class="ico q" aria-hidden="true">?</span><span class="txt">How signals work</span></button>
+  </nav>
+  <div id="foot"><div id="status"></div><div id="credits"></div><div id="who"></div></div>
+</aside>
+<div class="resizer" id="rs-side" role="separator" aria-orientation="vertical" aria-label="Resize the sidebar. Double-click to reset." tabindex="0"></div>
+<main id="main" class="solo">
+  <section id="chat">
+    <div id="chathead"><button class="ghost" id="menu" aria-label="Open the menu">☰</button><div id="context"></div><button class="ghost" id="toreport" hidden>Report →</button></div>
+    <div id="log"></div>
+    <div id="composer">
+      <form id="form">
+        <input id="input" autocomplete="off" placeholder="Company, domain or USDOT number" autofocus>
+        <button class="btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+  <div class="resizer" id="rs-brief" role="separator" aria-orientation="vertical" aria-label="Resize the report. Double-click to reset." tabindex="0"></div>
+  <section id="brief" hidden></section>
+</main>
+<div id="modal" hidden></div>
+<script src="/app.js"></script>
+</body>
+</html>

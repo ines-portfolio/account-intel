@@ -1,0 +1,176 @@
+{
+ "account": {
+  "name": "Hercules Forwarding LLC",
+  "domain": "herculesfreight.com",
+  "usdot": "424572",
+  "city": "VERNON",
+  "segment": "trucking",
+  "slug": "usdot-424572-hercules-forwarding-llc"
+ },
+ "ranAt": "2026-10-13T02:28:37.392Z",
+ "model": null,
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Hercules Forwarding LLC \u00b7 herculesfreight.com \u00b7 trucking"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "7 news, 3 page"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "Rejected by research"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "2 found"
+  },
+  {
+   "id": "drafts",
+   "status": "skipped",
+   "detail": "no usable signal"
+  }
+ ],
+ "verdict": {
+  "label": "Rejected by research",
+  "reason": "Filings show coverage ending October 29 with no replacement, but news points to a parent company, which usually buys insurance for the group."
+ },
+ "research": {
+  "one_liner": "For-hire trucking fleet based in Vernon, CA.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "Vernon, CA",
+    "source_id": "S11"
+   },
+   {
+    "label": "Fleet",
+    "value": "166 power units, 163 drivers",
+    "source_id": "S11"
+   },
+   {
+    "label": "Status",
+    "value": "USDOT active; operating authority active",
+    "source_id": "S11"
+   },
+   {
+    "label": "Phone",
+    "value": "3232636100 (business line on the federal registration)",
+    "source_id": "S11"
+   },
+   {
+    "label": "Safety rating",
+    "value": "Satisfactory",
+    "source_id": "S11"
+   },
+   {
+    "label": "Current liability insurer",
+    "value": "Obsidian Insurance Company, since 2024-10-01",
+    "source_id": "S11"
+   }
+  ],
+  "priorities": [],
+  "timeline": [],
+  "fit": {
+   "verdict": "not_a_fit",
+   "reason": "Filings show coverage ending October 29 with no replacement, but news points to a parent company, which usually buys insurance for the group."
+  }
+ },
+ "people": [
+  {
+   "name": "Kal Atwal",
+   "title": "Company officer on the federal registration",
+   "role": "Economic buyer (inference)",
+   "why": "Fleet owners usually sign for insurance at this fleet size.",
+   "source_id": "S11",
+   "confidence": "medium",
+   "likely_reports": [
+    "Safety director",
+    "Dispatcher / operations lead"
+   ],
+   "phone": "3232636100",
+   "phone_note": "Business line on the federal registration",
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Kal%20Atwal%20Hercules%20Forwarding%20LLC"
+  },
+  {
+   "name": "Sharon Schroeder",
+   "title": "Company officer on the federal registration",
+   "role": "Influencer (inference)",
+   "why": "Fleet owners usually sign for insurance at this fleet size.",
+   "source_id": "S11",
+   "confidence": "medium",
+   "likely_reports": [
+    "Safety director",
+    "Dispatcher / operations lead"
+   ],
+   "phone": "3232636100",
+   "phone_note": "Business line on the federal registration",
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Sharon%20Schroeder%20Hercules%20Forwarding%20LLC"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Safety director",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Safety%20director%20Hercules%20Forwarding%20LLC"
+  },
+  {
+   "role": "Dispatcher",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Dispatcher%20Hercules%20Forwarding%20LLC"
+  },
+  {
+   "role": "Operations manager",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20manager%20Hercules%20Forwarding%20LLC"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "truck_end_date",
+   "name": "Coverage end date, no replacement",
+   "priority": 1,
+   "status": "checked",
+   "detail": "Not the case in the current filings"
+  },
+  {
+   "id": "truck_reversed",
+   "name": "End date filed before and withdrawn",
+   "priority": 2,
+   "status": "checked",
+   "detail": "Not the case in the current filings"
+  },
+  {
+   "id": "truck_renewal",
+   "name": "Renewal estimate",
+   "priority": 3,
+   "status": "checked",
+   "detail": "Estimated renewal is 16 days away"
+  },
+  {
+   "id": "truck_churn",
+   "name": "Frequent insurer changes",
+   "priority": 3,
+   "status": "checked",
+   "detail": "3 insurers since 2021"
+  }
+ ],
+ "proof": [],
+ "signals": [],
+ "rejected": [
+  {
+   "candidate": "Liability coverage end date October 29, no replacement on file",
+   "reason": "Possible parent company: \"TFI acquires LTL carrier Hercules Forwarding - FreightWaves\" (S1). Confirm ownership before any outreach."
+  }
+ ],
+ "bottomLine": "Filings show coverage ending October 29 with no replacement, but news points to a parent company, which usually buys insurance for the group.",
+ "messages": [],
+ "notes": [
+  "A replacement policy can be filed any day. Re-run this account on the day you reach out.",
+  "The filings never say why a policy is ending. Do not state or imply a reason."
+ ]
+}

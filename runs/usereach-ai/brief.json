@@ -1,0 +1,432 @@
+{
+ "account": {
+  "name": "Reach",
+  "domain": "usereach.ai",
+  "segment": "startups",
+  "slug": "usereach-ai"
+ },
+ "ranAt": "2026-10-13T02:46:04.220Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Usereach \u00b7 usereach.ai \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "4 page, 8 search, 2 jobs \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "unclear"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "2 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "8 items about 2 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "3 passed, 2 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Imagine AI, Hallway.com"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "2 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "Check fit first",
+  "reason": "Reach is headquartered in Lisbon, Portugal [S9, S12]. While it employs distributed staff in the United States [S9] and is actively recruiting for roles in New York City [S13, S14], no source confirms an established US office or registered US legal entity. It is hiring in NY, so US employees are coming. Signal found: Launched AI product and platform publicly."
+ },
+ "research": {
+  "name": "Reach",
+  "one_liner": "AI SEO and AEO growth engine helping B2B SaaS companies win pipeline and visibility across Google and AI search platforms.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "Lisbon, Portugal",
+    "source_id": "S9"
+   },
+   {
+    "label": "Headcount",
+    "value": "14 (LinkedIn estimate)",
+    "source_id": "S9"
+   },
+   {
+    "label": "Revenue",
+    "value": "$1M ARR (as of August 2026)",
+    "source_id": "S10"
+   },
+   {
+    "label": "Growth",
+    "value": "Doubled ARR from $500K to $1M in four months",
+    "source_id": "S10"
+   },
+   {
+    "label": "Founded",
+    "value": "2026",
+    "source_id": "S8"
+   },
+   {
+    "label": "Funding",
+    "value": "Not disclosed (CEO previously raised $3.6M for Rely.io)",
+    "source_id": "S6"
+   },
+   {
+    "label": "Sells to",
+    "value": "B2B SaaS and growth-stage companies",
+    "source_id": "S1"
+   },
+   {
+    "label": "Business model",
+    "value": "Services as software combining a software platform, AI agents, and specialist execution",
+    "source_id": "S5"
+   },
+   {
+    "label": "Open roles",
+    "value": "8 open roles across Lisbon, NYC, and remote",
+    "source_id": "S13"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Expanding US presence and sales capacity by hiring an Account Executive, GTM Engineer, and Growth Marketer in NYC (inference from job listings)",
+    "source_id": "S13"
+   },
+   {
+    "text": "Scaling distribution beyond founder-led warm outreach and LinkedIn by turning its proprietary platform into a top-of-funnel lead generation engine",
+    "source_id": "S10"
+   },
+   {
+    "text": "Developing core AI agent orchestration and data pipelines to automate organic growth workflows",
+    "source_id": "S12"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2026-05-22",
+    "event": "Co-founder & CEO Jos\u00e9 Velez hosted GTM plays webinar on engineering demand with AI search",
+    "source_id": "S11"
+   },
+   {
+    "date": "2026-06-03",
+    "event": "Published case study on making Carro a top 3 cited brand in AI answers",
+    "source_id": "S6"
+   },
+   {
+    "date": "2026-08-10",
+    "event": "Announced crossing $1M ARR, doubling revenue from $500K ARR four months prior",
+    "source_id": "S10"
+   },
+   {
+    "date": "2026-09-16",
+    "event": "Published case study on doubling organic revenue for a B2C services marketplace",
+    "source_id": "S6"
+   },
+   {
+    "date": "2026-09-29",
+    "event": "Published case study on establishing Fraudio as the #2 cited domain in fraud prevention",
+    "source_id": "S6"
+   }
+  ],
+  "fit": {
+   "verdict": "unclear",
+   "reason": "Reach is headquartered in Lisbon, Portugal [S9, S12]. While it employs distributed staff in the United States [S9] and is actively recruiting for roles in New York City [S13, S14], no source confirms an established US office or registered US legal entity. It is hiring in NY, so US employees are coming."
+  }
+ },
+ "people": [
+  {
+   "name": "Jos\u00e9 Velez",
+   "title": "Co-founder & CEO",
+   "role": "Economic buyer",
+   "why": "Founder and CEO, oversees company strategy and purchasing decisions for early-stage operations.",
+   "source_id": "S6",
+   "confidence": "high",
+   "likely_reports": [
+    "Head of Finance / CFO",
+    "Head of People",
+    "General Counsel"
+   ],
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Jos%C3%A9%20Velez%20Reach"
+  },
+  {
+   "name": "Jos\u00e9 Pedro Nunes",
+   "title": "CTO & Co-founder",
+   "role": "Influencer",
+   "why": "Co-founder and CTO, leads engineering and technical operations.",
+   "source_id": "S8",
+   "confidence": "high",
+   "likely_reports": [
+    "Software Engineer"
+   ],
+   "profile_url": "https://linkedin.com/in/jose-pedro-nunes",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Jos%C3%A9%20Pedro%20Nunes%20Reach"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Head of Finance / CFO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Finance%20%2F%20CFO%20Reach"
+  },
+  {
+   "role": "General Counsel",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=General%20Counsel%20Reach"
+  },
+  {
+   "role": "Head of People",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20Reach"
+  },
+  {
+   "role": "CISO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=CISO%20Reach"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "checked",
+   "detail": "8 open roles read, none enterprise-sales or compliance"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No Form D on file; no recent headlines"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "found",
+   "detail": "Hiring in NY while headquartered in Lisbon, Portugal"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "1 finance, ops, legal and people roles read, none mention insurance"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "found",
+   "detail": "Launched AI product and platform publicly"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "found",
+   "detail": "Executive posted about hitting ARR milestones and scaling growth"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No Form D on file"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Imagine AI",
+   "what": "AI content marketing automation for mid-market and larger companies",
+   "situation": "An enterprise customer asked for proof of business insurance and quotes from brokers were taking too long",
+   "result": "Went from form to certificate in about two minutes and added D&O the same day",
+   "quote": "It took only about 2 minutes to sign up for insurance. That's another reason I went with Corgi, because it was just so easy. Once we filled out the form, we got our quote, paid, and we already had our insurance.",
+   "speaker": "Sky Yang, Co-Founder & CEO, Imagine AI",
+   "useWhen": "has a customer asking for proof of insurance; is a small team buying insurance for the first time; just raised and needs D&O",
+   "url": "https://www.corgi.insure/customers/imagine-ai",
+   "quoteUrl": "https://www.corgi.insure/customers/imagine-ai",
+   "why_similar": "Both are AI content and SEO companies serving mid-market and larger B2B companies needing fast insurance."
+  },
+  {
+   "customer": "Hallway.com",
+   "what": "Not stated on Corgi's site",
+   "situation": "Buying insurance while preparing for a launch",
+   "result": "Bought through a quick quote with direct access to the team",
+   "quote": "Corgi took the guesswork out of buying insurance. Between a smooth, modern quoting experience and immediate access to the team, they let me get back to preparing for our launch.",
+   "speaker": "Will Scrivener, CEO, Hallway.com",
+   "useWhen": "is about to launch a product",
+   "url": "https://www.corgi.insure/",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Both are buying insurance while preparing for a product launch."
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Launched AI product and platform publicly",
+   "signal_id": "ai_launch",
+   "strength": "strong",
+   "coverage": [
+    "AI Liability",
+    "Tech E&O"
+   ],
+   "quote": "Big day! The Reach AI OS to win AI Search is officially live!",
+   "source_id": "S15",
+   "date": "2026-07-24",
+   "person": "Jos\u00e9 Velez",
+   "how_to_use": "Reference their official AI platform launch on Product Hunt and LinkedIn as a natural entry point to discuss tailored AI Liability and Tech E&O coverage for new AI products.",
+   "maps_to": "AI product or agent launch",
+   "source_url": "https://www.linkedin.com/posts/zevelez_aeo-seo-aisearch-activity-7486325924813062145-_a7c",
+   "priority": 2,
+   "found_by": "Searches news for launch announcements and reads the company's blog and product pages.",
+   "why_it_matters": "AI output is a new kind of liability, and buyers now ask about it in security reviews.",
+   "angle": "Customers ask how AI output is covered. Ask whether AI liability is part of their Tech E&O today."
+  },
+  {
+   "signal_id": "hiring_states",
+   "maps_to": "Hiring across US states",
+   "coverage": [
+    "Workers' Comp",
+    "Employment Practices (EPL)"
+   ],
+   "person": null,
+   "detected_by": "code",
+   "strength": "strong",
+   "headline": "Hiring in NY while headquartered in Lisbon, Portugal",
+   "quote": "Open roles located in the US on the company's careers page: Founding Growth Marketer (NYC or Lisbon); Founding GTM Engineer (NYC or Lisbon); Account Executive (NYC); Talent & Operations Lead (NYC or Lisbon); Content Marketer (SEO & AI Search) (Lisbon, NYC or remote); Growth Strategist (SEO & AEO Specialist) (Lisbon, NYC or remote).",
+   "source_id": "S14",
+   "date": "2026-10-13",
+   "how_to_use": "A first US employee means workers' comp in that state from day one, and usually a US entity to hold the policy. Ask whether that is set up for the US hires.",
+   "source_url": "https://usereach.ai/careers",
+   "priority": 1,
+   "found_by": "Reads the location of every open role and counts the distinct US states. If the company has no job board, its own careers page is read instead. For a company based abroad, one US role is enough.",
+   "why_it_matters": "Workers' comp is required state by state, from the first employee in each one. Headcount growth also raises employment-practices risk.",
+   "angle": "Each new state with an employee needs workers' comp there. Ask whether coverage follows the hiring plan."
+  },
+  {
+   "headline": "Executive posted about hitting ARR milestones and scaling growth",
+   "signal_id": "exec_post",
+   "strength": "moderate",
+   "coverage": [
+    "All lines"
+   ],
+   "quote": "Four months ago we hit $500K ARR. Today we just crossed $1M.",
+   "source_id": "S10",
+   "date": "2026-08-10",
+   "person": "Jos\u00e9 Velez",
+   "how_to_use": "Acknowledge their rapid growth from $500K to $1M ARR when discussing scaling insurance needs as headcount and operations expand.",
+   "maps_to": "A leader's own public post",
+   "source_url": "https://www.linkedin.com/posts/usereach-ai_activity-7492631142873976832-599g",
+   "priority": 3,
+   "found_by": "Runs one search per top contact for their recent public posts, interviews and announcements, and keeps only results that name both the person and the company.",
+   "why_it_matters": "It is the most personal opener available: something that person chose to say in public.",
+   "angle": "Open with what they said and where, then connect it to the insurance requirement it creates."
+  }
+ ],
+ "rejected": [
+  {
+   "candidate": "funding",
+   "reason": "No priced funding round announced in the last 90 days; revenue is driven by ARR growth and prior founding background."
+  },
+  {
+   "candidate": "enterprise_push",
+   "reason": "Mentioning case studies and working with clients is part of their standard business model rather than a new enterprise compliance or dedicated enterprise hiring shift within the window."
+  }
+ ],
+ "bottomLine": "moderate, lead with X",
+ "messages": [
+  {
+   "contact": "Jos\u00e9 Velez",
+   "title": "Co-founder & CEO",
+   "signal_used": "hiring_states",
+   "nurture": false,
+   "call_opener": "Hi Jos\u00e9, [Your name] at Corgi. I saw Reach is actively hiring for roles in New York while headquartered in Lisbon. Each new US state with an employee needs workers' comp there. Do you already have that set up, or is it worth a quick quote?",
+   "email": {
+    "subject": "hiring in new york",
+    "body": "Saw Reach is actively hiring for roles in New York while headquartered in Lisbon. Each new US state with an employee needs workers' comp there. Do you already have that set up, or is it worth a quick quote? Corgi is an AI-native carrier with no broker in the middle, and Imagine AI went from form to certificate in about two minutes.\n\n[Your name]"
+   },
+   "followup": "Hey Jos\u00e9, following up on your US hiring plans. If you need workers' comp for new New York hires, we can bind it the same day. Worth a look?\n\n[Your name]",
+   "linkedin_note": "Saw Reach is actively hiring in New York while based in Lisbon. Each new state needs workers' comp there. Let's connect if you're sorting that out.",
+   "linkedin_dm": "Saw Reach is hiring in New York. Each new US state with an employee needs workers' comp there. Do you have that set up yet?",
+   "why": "Signal: hiring_states (Source: S14). Coverage: Workers' Comp. Proof: Imagine AI went from form to certificate in about two minutes.",
+   "proof_used": "Imagine AI",
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": []
+  },
+  {
+   "contact": "Jos\u00e9 Pedro Nunes",
+   "title": "CTO & Co-founder",
+   "signal_used": "ai_launch",
+   "nurture": false,
+   "call_opener": "Hi Jos\u00e9 Pedro, [Your name] at Corgi. Saw your post that The Reach AI OS to win AI Search is officially live. Customers often ask how AI output is covered. Is AI liability part of your Tech E&O today?",
+   "email": {
+    "subject": "your ai os launch",
+    "body": "Saw your post that The Reach AI OS to win AI Search is officially live. Customers often ask how AI output is covered. Is AI liability part of your Tech E&O today? Corgi gets you a quote in minutes with same-day binding, and Hallway.com bought coverage through a quick quote with direct access to the team.\n\n[Your name]"
+   },
+   "followup": "Hey Jos\u00e9 Pedro, following up on your AI OS launch. As you scale usage, enterprise customers will ask about Tech E&O and AI liability. Want to see a quote?\n\n[Your name]",
+   "linkedin_note": "Saw your post that The Reach AI OS is live. Customers often ask how AI output is covered. Let's connect.",
+   "linkedin_dm": "Saw your post that The Reach AI OS is live. Is AI liability part of your Tech E&O today?",
+   "why": "Signal: ai_launch (Source: S15). Coverage: AI Liability, Tech E&O. Proof: Hallway.com bought through a quick quote with direct access to the team.",
+   "proof_used": "Hallway.com",
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": [
+    "Says \"your post\" or similar, but no verified signal is about Jos\u00e9 Pedro Nunes. Reword before sending."
+   ]
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

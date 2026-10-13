@@ -1,0 +1,155 @@
+{
+ "account": {
+  "name": "B&B Transport INC",
+  "domain": "bbtransinc.com",
+  "usdot": "1506989",
+  "city": "FRESNO",
+  "segment": "trucking",
+  "slug": "usdot-1506989-b-b-transport-inc"
+ },
+ "ranAt": "2026-10-13T02:28:41.143Z",
+ "model": null,
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "B&B Transport INC \u00b7 bbtransinc.com \u00b7 trucking"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "3 page"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "No signal right now"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "1 found"
+  },
+  {
+   "id": "drafts",
+   "status": "skipped",
+   "detail": "no usable signal"
+  }
+ ],
+ "verdict": {
+  "label": "No signal right now",
+  "reason": "No end date on file; estimated renewal is 358 days away."
+ },
+ "research": {
+  "one_liner": "For-hire trucking fleet based in Fresno, CA.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "Fresno, CA",
+    "source_id": "S4"
+   },
+   {
+    "label": "Fleet",
+    "value": "190 power units, 185 drivers",
+    "source_id": "S4"
+   },
+   {
+    "label": "Status",
+    "value": "USDOT active; operating authority active",
+    "source_id": "S4"
+   },
+   {
+    "label": "Phone",
+    "value": "5592642036 (business line on the federal registration)",
+    "source_id": "S4"
+   },
+   {
+    "label": "Safety rating",
+    "value": "Satisfactory",
+    "source_id": "S4"
+   },
+   {
+    "label": "Current liability insurer",
+    "value": "MS Transverse Insurance Company, since 2026-10-06",
+    "source_id": "S4"
+   }
+  ],
+  "priorities": [],
+  "timeline": [],
+  "fit": {
+   "verdict": "fit",
+   "reason": "No end date on file; estimated renewal is 358 days away."
+  }
+ },
+ "people": [
+  {
+   "name": "Gurpreet Singh",
+   "title": "Company officer on the federal registration",
+   "role": "Economic buyer (inference)",
+   "why": "Fleet owners usually sign for insurance at this fleet size.",
+   "source_id": "S4",
+   "confidence": "medium",
+   "likely_reports": [
+    "Safety director",
+    "Dispatcher / operations lead"
+   ],
+   "phone": "5592642036",
+   "phone_note": "Business line on the federal registration",
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Gurpreet%20Singh%20B%26B%20Transport%20INC"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Safety director",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Safety%20director%20B%26B%20Transport%20INC"
+  },
+  {
+   "role": "Dispatcher",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Dispatcher%20B%26B%20Transport%20INC"
+  },
+  {
+   "role": "Operations manager",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Operations%20manager%20B%26B%20Transport%20INC"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "truck_end_date",
+   "name": "Coverage end date, no replacement",
+   "priority": 1,
+   "status": "checked",
+   "detail": "Not the case in the current filings"
+  },
+  {
+   "id": "truck_reversed",
+   "name": "End date filed before and withdrawn",
+   "priority": 2,
+   "status": "checked",
+   "detail": "Not the case in the current filings"
+  },
+  {
+   "id": "truck_renewal",
+   "name": "Renewal estimate",
+   "priority": 3,
+   "status": "checked",
+   "detail": "Estimated renewal is 358 days away"
+  },
+  {
+   "id": "truck_churn",
+   "name": "Frequent insurer changes",
+   "priority": 3,
+   "status": "checked",
+   "detail": "3 insurers since 2021"
+  }
+ ],
+ "proof": [],
+ "signals": [],
+ "rejected": [],
+ "bottomLine": "No end date on file; estimated renewal is 358 days away.",
+ "messages": [],
+ "notes": [
+  "A replacement policy can be filed any day. Re-run this account on the day you reach out.",
+  "The filings never say why a policy is ending. Do not state or imply a reason."
+ ]
+}

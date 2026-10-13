@@ -1,0 +1,437 @@
+{
+ "account": {
+  "name": "Namespace",
+  "domain": "namespace.so",
+  "segment": "startups",
+  "slug": "namespace-so"
+ },
+ "ranAt": "2026-10-13T02:43:52.372Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Namespace \u00b7 namespace.so \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "9 page, 2 jobs, 15 news, 10 search \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "fit"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "2 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "9 items about 2 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "4 passed, 2 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Bland, Eragon"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "2 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "Work it: strong signal",
+  "reason": "Namespace closes $42M Series B funding round"
+ },
+ "research": {
+  "name": "Namespace",
+  "one_liner": "Namespace accelerates the development workflow of fast-moving software engineering teams with best-in-class compute and development-supporting services.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "San Francisco, California, United States",
+    "source_id": "S23"
+   },
+   {
+    "label": "Headcount",
+    "value": "22 employees (database estimate)",
+    "source_id": "S23"
+   },
+   {
+    "label": "Founded",
+    "value": "2021",
+    "source_id": "S22"
+   },
+   {
+    "label": "Funding",
+    "value": "$65 million total (including a $42 million Series B in October 2026)",
+    "source_id": "S4"
+   },
+   {
+    "label": "Sells to",
+    "value": "Software engineering teams, startups to public companies",
+    "source_id": "S1"
+   },
+   {
+    "label": "Business model",
+    "value": "Developer infrastructure SaaS platform with tiered subscription and usage-based pricing",
+    "source_id": "S3"
+   },
+   {
+    "label": "Open roles",
+    "value": "13 open roles",
+    "source_id": "S10"
+   },
+   {
+    "label": "Revenue",
+    "value": "USD 381,063 annual revenue (database estimate)",
+    "source_id": "S3"
+   },
+   {
+    "label": "Growth",
+    "value": "Total revenue growing 8x over the last 12 months",
+    "source_id": "S6"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Accelerating product development and expanding global data centers following the Series B funding round",
+    "source_id": "S6"
+   },
+   {
+    "text": "Scaling developer infrastructure specifically optimized for coding agents and AI workflows",
+    "source_id": "S6"
+   },
+   {
+    "text": "Expanding go-to-market presence and hiring in the US and international regions",
+    "source_id": "S5"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2026-03-23",
+    "event": "Namespace announced a $23 million Seed and Series A funding round led by NEA",
+    "source_id": "S27"
+   },
+   {
+    "date": "2026-08-19",
+    "event": "Introduced Bazel Remote Execution for multi-platform builds and tests",
+    "source_id": "S4"
+   },
+   {
+    "date": "2026-09-02",
+    "event": "Partnered with Cursor to give cloud agents real computers via Namespace Devboxes",
+    "source_id": "S4"
+   },
+   {
+    "date": "2026-09-30",
+    "event": "Introduced Git Snapshots for Cursor Origin and GitHub",
+    "source_id": "S4"
+   },
+   {
+    "date": "2026-10-05",
+    "event": "Closed a $42 million Series B round led by Scale Venture Partners, bringing total funding to $65 million",
+    "source_id": "S4"
+   }
+  ],
+  "fit": {
+   "verdict": "fit",
+   "reason": "Namespace is headquartered in San Francisco, California, with active US operations and open roles in the US, making it fully eligible for Corgi's US startup coverage."
+  }
+ },
+ "people": [
+  {
+   "name": "Hugo Santos",
+   "title": "Founder & CEO",
+   "role": "Economic buyer",
+   "why": "Economic buyer for overall company operations and insurance decisions given early-stage headcount under 50.",
+   "source_id": "S22",
+   "confidence": "high",
+   "likely_reports": [
+    "Whoever runs finance or ops"
+   ],
+   "profile_url": "https://linkedin.com/in/hugomgsantos",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Hugo%20Santos%20Namespace"
+  },
+  {
+   "name": "Eva Parth Dos Santos",
+   "title": "Chief Operating Officer",
+   "role": "Runs the process",
+   "why": "Manages operational execution and day-to-day functions where insurance and vendor management sit.",
+   "source_id": "S24",
+   "confidence": "high",
+   "likely_reports": [],
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Eva%20Parth%20Dos%20Santos%20Namespace"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Head of Finance / CFO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Finance%20%2F%20CFO%20Namespace"
+  },
+  {
+   "role": "General Counsel",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=General%20Counsel%20Namespace"
+  },
+  {
+   "role": "Head of People",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20Namespace"
+  },
+  {
+   "role": "CISO / Security Lead",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=CISO%20%2F%20Security%20Lead%20Namespace"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "found",
+   "detail": "Namespace is expanding enterprise customer adoption and large-scale deployments"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "found",
+   "detail": "Namespace closes $42M Series B funding round"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "found",
+   "detail": "Open roles in 3 US states"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "1 finance, ops, legal and people roles read, none mention insurance"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "checked",
+   "detail": "2 recent headlines read, none qualified"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "found",
+   "detail": "COO Eva Parth Dos Santos posts about customer growth and scaling enterprise dependencies"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No Form D on file"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Bland",
+   "what": "Sells to some of the largest companies in the world",
+   "situation": "Large customers require a lot of coverage, and each new customer can bring new requirements",
+   "result": "Adds coverage as customers ask for it without starting a new process each time",
+   "quote": "Corgi takes care of everything, we don't have to go through the hassle of a new process every time a customer needs something new.",
+   "speaker": "Isaiah N. Granet, Co-Founder & CEO, Bland",
+   "useWhen": "is moving upmarket and keeps getting new insurance requirements from customers",
+   "url": "https://www.corgi.insure/",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Namespace is expanding enterprise customer adoption and large-scale deployments, similar to Bland where large customers require a lot of coverage and each new customer brings new requirements."
+  },
+  {
+   "customer": "Eragon",
+   "what": "AI and enterprise SaaS",
+   "situation": "Landed a deal with one of the world's largest companies that came with a long list of insurance requirements on the customer's timeline",
+   "result": "Met every requirement and closed the contract in days, not weeks",
+   "quote": "The Corgi team, in a matter of minutes, took care of all the insurance requirements I needed in order to land our first 7-figure enterprise contract",
+   "speaker": "Josh Sirota, Founder & CEO, Eragon",
+   "useWhen": "is closing its first large enterprise contract; has a deal waiting on insurance requirements",
+   "url": "https://www.corgi.insure/customers/eragon",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Namespace is expanding enterprise customer adoption, similar to Eragon which landed deals with large companies that came with a list of insurance requirements."
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Namespace closes $42M Series B funding round",
+   "signal_id": "funding",
+   "strength": "strong",
+   "coverage": [
+    "D&O",
+    "Crime"
+   ],
+   "quote": "Namespace recently closed a $42 million Series B round led by Scale Venture Partners, with participation from NEA, 20VC",
+   "source_id": "S4",
+   "date": "2026-10-05",
+   "person": null,
+   "how_to_use": "Reference their October 2026 Series B raise when reaching out to founders about updating D&O coverage limits for the growth stage.",
+   "maps_to": "Priced funding round",
+   "source_url": "https://namespace.so/blog",
+   "found_by": "Looks up the company's Form D filings, which are due within 15 days of a first sale, and searches news for the round announcement.",
+   "why_it_matters": "Investors commonly require D&O within 60 to 90 days of close, and new board seats mean new personal liability.",
+   "angle": "Investors commonly require D&O within 60 to 90 days of close. Ask whether D&O is already in place for the new board."
+  },
+  {
+   "headline": "Namespace is expanding enterprise customer adoption and large-scale deployments",
+   "signal_id": "enterprise_push",
+   "strength": "strong",
+   "coverage": [
+    "Tech E&O",
+    "Cyber Liability",
+    "General Liability"
+   ],
+   "quote": "Today, we power software development for more than 1,000 of the world's most ambitious companies, including",
+   "source_id": "S6",
+   "date": "2026-10-05",
+   "person": null,
+   "how_to_use": "Connect their upmarket traction with enterprise accounts like ClassPass and Framer to the need for comprehensive Tech E&O and Cyber Liability coverage.",
+   "maps_to": "Selling to bigger customers",
+   "source_url": "https://namespace.so/blog/series-b",
+   "found_by": "Reads every open role and flags enterprise-sales, solutions and compliance titles. Fetches the company's security, trust, customers and enterprise pages.",
+   "why_it_matters": "Enterprise procurement asks for a certificate of insurance before signing. This is usually the first hard insurance deadline a startup hits, and a deal is waiting on it.",
+   "angle": "Enterprise customers ask for a certificate of insurance (Tech E&O and cyber) before they sign. Ask whether a deal is waiting on one."
+  },
+  {
+   "headline": "COO Eva Parth Dos Santos posts about customer growth and scaling enterprise dependencies",
+   "signal_id": "exec_post",
+   "strength": "moderate",
+   "coverage": [
+    "All lines"
+   ],
+   "quote": "Some years ago, I would never have thought that great companies like Framer would depend on something we have built.",
+   "source_id": "S38",
+   "date": "2026-07-28",
+   "person": "Eva Parth Dos Santos",
+   "how_to_use": "Mention COO Eva Parth Dos Santos's public reflection on trusted enterprise deployments like Framer when opening a conversation about scaling operational insurance.",
+   "maps_to": "A leader's own public post",
+   "source_url": "https://www.linkedin.com/posts/eva-parth_some-years-ago-i-would-never-have-thought-activity-7487868948798050306-NUc0",
+   "found_by": "Runs one search per top contact for their recent public posts, interviews and announcements, and keeps only results that name both the person and the company.",
+   "why_it_matters": "It is the most personal opener available: something that person chose to say in public.",
+   "angle": "Open with what they said and where, then connect it to the insurance requirement it creates."
+  },
+  {
+   "signal_id": "hiring_states",
+   "maps_to": "Hiring across US states",
+   "coverage": [
+    "Workers' Comp",
+    "Employment Practices (EPL)"
+   ],
+   "person": null,
+   "detected_by": "code",
+   "headline": "Open roles in 3 US states",
+   "strength": "moderate",
+   "quote": "Roles located in 3 US states: NY (7), CA (6), VA (1).",
+   "source_id": "S31",
+   "date": "2026-10-13",
+   "how_to_use": "Each new state with an employee needs workers' comp there. Ask whether coverage follows the hiring plan.",
+   "source_url": "https://jobs.ashbyhq.com/namespace",
+   "found_by": "Reads the location of every open role and counts the distinct US states. If the company has no job board, its own careers page is read instead. For a company based abroad, one US role is enough.",
+   "why_it_matters": "Workers' comp is required state by state, from the first employee in each one. Headcount growth also raises employment-practices risk.",
+   "angle": "Each new state with an employee needs workers' comp there. Ask whether coverage follows the hiring plan."
+  }
+ ],
+ "rejected": [
+  {
+   "candidate": "ai_launch",
+   "reason": "The blog posts and news refer to customer use cases or third-party storage features rather than an internal proprietary AI product launch by Namespace in the last 6 months."
+  },
+  {
+   "candidate": "office",
+   "reason": "Articles mention data center expansion globally, but no specific new office lease or corporate HQ move was announced within the last 6 months."
+  }
+ ],
+ "bottomLine": "strong why-now",
+ "messages": [
+  {
+   "contact": "Hugo Santos",
+   "title": "Founder & CEO",
+   "signal_used": "funding",
+   "nurture": false,
+   "call_opener": "Hi Hugo, [Your name] at Corgi. Saw Namespace closed the $42 million Series B round. New board seats usually bring a D&O requirement in the term sheet. Is D&O in place for the new board yet?",
+   "email": {
+    "subject": "your series b",
+    "body": "Hi Hugo,\n\nSaw Namespace closed the $42 million Series B round.\n\nNew board seats usually bring a D&O requirement in the term sheet, so I wanted to check whether D&O is already in place for the new board.\n\nCorgi gets you a quote in minutes and handles same-day binding.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hi Hugo,\n\nFollowing up on the Series B and D&O coverage for the new board. If this is handled, who should I check with instead?\n\n[Your name]",
+   "linkedin_note": "Hi Hugo, saw Namespace closed the $42 million Series B. New board seats usually bring a D&O requirement. Is D&O in place for the new board yet? [Your name]",
+   "linkedin_dm": "Hi Hugo, saw Namespace closed the $42 million Series B. New board seats usually bring a D&O requirement. Is D&O in place for the new board yet? Corgi handles quotes in minutes and same-day binding. Worth a look?",
+   "why": "Lead signal: $42 million Series B funding round (source: S4). Connection: investors commonly require D&O within 60 to 90 days of close. Proof: product claim from Corgi positioning (quote in minutes, same-day binding).",
+   "proof_used": null,
+   "lint": []
+  },
+  {
+   "contact": "Eva Parth Dos Santos",
+   "title": "Chief Operating Officer",
+   "signal_used": "exec_post",
+   "nurture": false,
+   "call_opener": "Hi Eva, [Your name] at Corgi. Saw your post about companies like Framer depending on what Namespace built. Large enterprise deployments usually require Tech E&O and Cyber Liability before signing. Is a deal waiting on those certificates?",
+   "email": {
+    "subject": "your post about framer",
+    "body": "Hi Eva,\n\nSaw your post about companies like Framer depending on what Namespace built.\n\nLarge enterprise deployments usually require Tech E&O and Cyber Liability before signing, so I wanted to ask if a deal is waiting on those certificates right now.\n\nAs Bland found, Corgi takes care of everything so you don't have to go through the hassle of a new process every time a customer needs something new.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hi Eva,\n\nChecking in on Tech E&O and Cyber Liability for enterprise customer requirements. Are these covered under your current setup?\n\n[Your name]",
+   "linkedin_note": "Hi Eva, saw your post about companies like Framer depending on Namespace. Large enterprise deployments usually require Tech E&O and Cyber Liability. Is a deal waiting on those certificates? [Your name]",
+   "linkedin_dm": "Hi Eva, saw your post about companies like Framer depending on Namespace. Large enterprise deployments usually require Tech E&O and Cyber Liability. Is a deal waiting on those certificates? Bland noted that Corgi takes care of everything without the hassle of a new process every time.",
+   "why": "Lead signal: COO Eva Parth Dos Santos posts about customer growth and scaling enterprise dependencies on Framer (source: S38). Connection: enterprise customers ask for certificates of insurance for Tech E&O and Cyber Liability before signing. Proof: Bland customer story.",
+   "proof_used": "Bland",
+   "lint": []
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

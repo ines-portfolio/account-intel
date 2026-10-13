@@ -1,0 +1,372 @@
+{
+ "account": {
+  "name": "Appsmith",
+  "domain": "appsmith.com",
+  "segment": "startups",
+  "slug": "appsmith-com"
+ },
+ "ranAt": "2026-10-13T02:31:38.867Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Appsmith \u00b7 appsmith.com \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "9 page, 17 search, 13 news \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "fit"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "3 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "12 items about 3 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "0 passed, 3 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Eragon"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "3 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "No signal right now",
+  "reason": "Nothing recent enough to be a reason to call. 12 signals were checked and 3 candidates were rejected. Nurture."
+ },
+ "research": {
+  "name": "Appsmith",
+  "one_liner": "Open-Source Low-Code Application Platform",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "San Francisco, California, United States",
+    "source_id": "S2"
+   },
+   {
+    "label": "Headcount",
+    "value": "30-40 employees (estimate)",
+    "source_id": "S2"
+   },
+   {
+    "label": "Revenue",
+    "value": "$1M-$10M range (estimate)",
+    "source_id": "S2"
+   },
+   {
+    "label": "Founded",
+    "value": "2019",
+    "source_id": "S2"
+   },
+   {
+    "label": "Funding",
+    "value": "$54M total",
+    "source_id": "S2"
+   },
+   {
+    "label": "Sells to",
+    "value": "From startups to enterprises building custom internal applications",
+    "source_id": "S1"
+   },
+   {
+    "label": "Business model",
+    "value": "Open-source core with commercial user-based pricing (Business and Enterprise plans)",
+    "source_id": "S19"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Expanding context-aware AI capabilities with the rollout of Appsmith Agents for enterprise businesses.",
+    "source_id": "S27"
+   },
+   {
+    "text": "Driving adoption of commercial tiers (Business and Enterprise) built on top of the open-source developer core.",
+    "source_id": "S19"
+   },
+   {
+    "text": "Enhancing security, reliability, and access controls for scaling internal tools in larger organizations.",
+    "source_id": "S24"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2021-10-06",
+    "event": "Raised $10.5M across Seed and Series A rounds from Accel, Canaan Partners, Bessemer, and others.",
+    "source_id": "S16"
+   },
+   {
+    "date": "2022-06-22",
+    "event": "Announced $41 million Series B funding round led by Insight Partners.",
+    "source_id": "S18"
+   },
+   {
+    "date": "2023-03-27",
+    "event": "Introduced Appsmith Business tier to provide advanced security, audit logs, and granular access controls.",
+    "source_id": "S24"
+   },
+   {
+    "date": "2023-09-22",
+    "event": "Executed a workforce reduction of approximately 25%.",
+    "source_id": "S35"
+   },
+   {
+    "date": "2025-05-01",
+    "event": "Unveiled Appsmith Agents to bring context-aware AI features to enterprise businesses.",
+    "source_id": "S27"
+   }
+  ],
+  "fit": {
+   "verdict": "fit",
+   "reason": "Appsmith is headquartered in San Francisco, California, US, matching Corgi's geographic requirements, and operates as a venture-backed tech company within the startup/growth stage."
+  }
+ },
+ "people": [
+  {
+   "name": "Abhishek Nayak",
+   "title": "CEO & Co-Founder",
+   "role": "Economic buyer",
+   "why": "Founder and CEO, makes key executive decisions for the company including operational and financial commitments.",
+   "source_id": "S2",
+   "confidence": "high",
+   "likely_reports": [
+    "Head of Finance / CFO",
+    "Head of Legal",
+    "Head of People",
+    "CISO"
+   ],
+   "profile_url": "https://www.linkedin.com/in/abhisheknayak",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Abhishek%20Nayak%20Appsmith"
+  },
+  {
+   "name": "Arpit Mohan",
+   "title": "Co-Founder, CTO",
+   "role": "Champion",
+   "why": "Co-founder and CTO, oversees technical architecture and engineering tool stack where developer tools and infrastructure are evaluated.",
+   "source_id": "S11",
+   "confidence": "high",
+   "likely_reports": [],
+   "profile_url": "https://linkedin.com/in/arpitmohan",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Arpit%20Mohan%20Appsmith"
+  },
+  {
+   "name": "Neel Pattani",
+   "title": "Director - Revenue & Business Ops",
+   "role": "Runs the process",
+   "why": "Manages financial operations and business operations, handling internal financial workflows and tooling procurement processes.",
+   "source_id": "S4",
+   "confidence": "medium",
+   "likely_reports": [],
+   "profile_url": "https://linkedin.com/in/neel-pattani-8a0972109",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Neel%20Pattani%20Appsmith"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Head of Finance / CFO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Finance%20%2F%20CFO%20Appsmith"
+  },
+  {
+   "role": "Head of Legal / General Counsel",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Legal%20%2F%20General%20Counsel%20Appsmith"
+  },
+  {
+   "role": "Head of People",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20Appsmith"
+  },
+  {
+   "role": "CISO / Security Lead",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=CISO%20%2F%20Security%20Lead%20Appsmith"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No Form D on file; no recent headlines"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "checked",
+   "detail": "12 public items about 3 contacts read, none tied to an insurance moment"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No Form D on file"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Eragon",
+   "what": "AI and enterprise SaaS",
+   "situation": "Landed a deal with one of the world's largest companies that came with a long list of insurance requirements on the customer's timeline",
+   "result": "Met every requirement and closed the contract in days, not weeks",
+   "quote": "The Corgi team, in a matter of minutes, took care of all the insurance requirements I needed in order to land our first 7-figure enterprise contract",
+   "speaker": "Josh Sirota, Founder & CEO, Eragon",
+   "useWhen": "is closing its first large enterprise contract; has a deal waiting on insurance requirements",
+   "url": "https://www.corgi.insure/customers/eragon",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Like Appsmith, Eragon is an enterprise SaaS company landing deals with large enterprises that come with insurance requirements."
+  }
+ ],
+ "signals": [],
+ "rejected": [
+  {
+   "candidate": "funding",
+   "reason": "The last funding round (Series B) was in June 2022, which is well outside the 0-90 day window."
+  },
+  {
+   "candidate": "enterprise_push",
+   "reason": "While case studies mention enterprise customers like GSK, the primary enterprise security/pricing tier launch and feature rollouts occurred over 6 months ago, lacking recent dated events in the window."
+  },
+  {
+   "candidate": "Appsmith Unveils Appsmith Agents to Transform Enterprise Business with Context-Aware AI",
+   "reason": "Too old to be a reason to reach out now: dated 2025-05-01, more than 12 months ago. Background only."
+  }
+ ],
+ "bottomLine": "moderate, lead with X",
+ "messages": [
+  {
+   "contact": "Abhishek Nayak",
+   "title": "CEO & Co-Founder",
+   "signal_used": null,
+   "nurture": true,
+   "call_opener": "Hi Abhishek, it's [Your name] at Corgi. I saw Appsmith has raised $54M total scaling your open-source low-code platform. Growth like that usually brings enterprise contracts requiring Directors and Officers liability insurance. Do you already have that covered, or is it worth putting a quote next to it? Corgi is the carrier, so you get a quote in minutes without a broker in the middle.",
+   "email": {
+    "subject": "appsmith d and o",
+    "body": "Hi Abhishek,\n\nI saw Appsmith has raised $54M total scaling your open-source low-code platform. Growth like that usually brings enterprise contracts requiring Directors and Officers liability insurance.\n\nDo you already have that covered, or is it worth putting a quote next to it?\n\nEragon met every requirement on a 7-figure enterprise contract and closed it in days.\n\nBest,\n[Your name]"
+   },
+   "followup": "Hi Abhishek, following up on this. Since Appsmith sells from startups to enterprises building custom internal applications, having Directors and Officers liability ready avoids any contract hold-ups. Worth a look?\n\n[Your name]",
+   "linkedin_note": "Hi Abhishek, saw Appsmith reached $54M total funding for your low-code platform. Usually triggers D&O needs for enterprise sales. Worth checking out Corgi for same-day binding? - [Your name]",
+   "linkedin_dm": "Hi Abhishek, noticed Appsmith has raised $54M total building your open-source low-code platform. Growth to enterprise scale usually requires Directors and Officers liability insurance. Do you already have that covered? - [Your name]",
+   "why": "Signal used: None (relevance-based). Fact: Appsmith raised $54M total. Coverage: Directors & Officers. Proof: Eragon.",
+   "proof_used": "Eragon",
+   "lint": []
+  },
+  {
+   "contact": "Arpit Mohan",
+   "title": "Co-Founder, CTO",
+   "signal_used": null,
+   "nurture": true,
+   "call_opener": "Hi Arpit, it's [Your name] at Corgi. I saw Appsmith operates with an open-source core and commercial user-based pricing. Building developer tools and managing infrastructure at that scale usually triggers customer requests for Cyber Liability insurance. Do you already have that covered, or is it worth putting a quote next to it? Corgi gets you a quote in minutes with same-day binding.",
+   "email": {
+    "subject": "appsmith cyber liability",
+    "body": "Hi Arpit,\n\nI saw Appsmith operates with an open-source core and commercial user-based pricing. Building developer tools and managing infrastructure at that scale usually triggers customer requests for Cyber Liability insurance.\n\nDo you already have that covered, or is it worth putting a quote next to it?\n\nEragon met every requirement on a 7-figure enterprise contract and closed it in days.\n\nBest,\n[Your name]"
+   },
+   "followup": "Hi Arpit, checking back in. When enterprise teams evaluate developer platforms like Appsmith, security reviews often require Cyber Liability insurance. Worth seeing how fast we can quote it?\n\n[Your name]",
+   "linkedin_note": "Hi Arpit, saw Appsmith runs an open-source core with commercial user-based pricing. Infrastructure and developer tooling usually requires Cyber Liability. Worth checking Corgi? - [Your name]",
+   "linkedin_dm": "Hi Arpit, noticed Appsmith operates with an open-source core and commercial user-based pricing. Managing enterprise infrastructure usually requires Cyber Liability insurance. Do you already have that covered? - [Your name]",
+   "why": "Signal used: None (relevance-based). Fact: Appsmith operates an open-source core with commercial user-based pricing. Coverage: Cyber Liability. Proof: Eragon.",
+   "proof_used": "Eragon",
+   "lint": []
+  },
+  {
+   "contact": "Neel Pattani",
+   "title": "Director - Revenue & Business Ops",
+   "signal_used": null,
+   "nurture": true,
+   "call_opener": "Hi Neel, it's [Your name] at Corgi. I saw Appsmith is headquartered in San Francisco with a team of 30-40 employees. Managing business operations and financial tooling for a growing team usually means handling vendor procurement requirements for General Liability. Do you already have that covered, or is it worth putting a quote next to it? Corgi is the carrier, so you get a quote in minutes without a middleman.",
+   "email": {
+    "subject": "appsmith general liability",
+    "body": "Hi Neel,\n\nI saw Appsmith is headquartered in San Francisco with a team of 30-40 employees. Managing business operations and financial tooling for a growing team usually means handling vendor procurement requirements for General Liability.\n\nDo you already have that covered, or is it worth putting a quote next to it?\n\nEragon met every requirement on a 7-figure enterprise contract and closed it in days.\n\nBest,\n[Your name]"
+   },
+   "followup": "Hi Neel, following up on business ops tooling. Streamlining procurement reviews when selling custom internal applications often speeds up with General Liability coverage ready. Worth a look?\n\n[Your name]",
+   "linkedin_note": "Hi Neel, saw Appsmith has 30-40 employees based in San Francisco. Growing teams handling business operations usually need General Liability in place. Worth checking Corgi? - [Your name]",
+   "linkedin_dm": "Hi Neel, noticed Appsmith has 30-40 employees based in San Francisco. Managing revenue and business ops for growing tech teams usually brings procurement requests for General Liability. Do you already have that covered? - [Your name]",
+   "why": "Signal used: None (relevance-based). Fact: Appsmith has 30-40 employees in San Francisco. Coverage: General Liability. Proof: Eragon.",
+   "proof_used": "Eragon",
+   "lint": []
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

@@ -1,0 +1,468 @@
+{
+ "account": {
+  "name": "Stuut",
+  "domain": "stuut.ai",
+  "segment": "startups",
+  "slug": "stuut-ai"
+ },
+ "ranAt": "2026-10-13T02:43:34.367Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Stuut \u00b7 stuut.ai \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "9 page, 2 sec, 18 news, 15 search, 3 jobs \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "fit"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "5 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "22 items about 4 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "4 passed, 1 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Artisan, Bland"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "3 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "Work it: strong signal",
+  "reason": "Stuut raises $52.5M Series B led by Insight Partners"
+ },
+ "research": {
+  "name": "Stuut",
+  "one_liner": "Your AI coworker for order-to-cash",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "New York, New York, United States",
+    "source_id": "S24"
+   },
+   {
+    "label": "Headcount",
+    "value": "60-70 employees (LinkedIn estimate: 80-88 employees)",
+    "source_id": "S24"
+   },
+   {
+    "label": "Founded",
+    "value": "2024",
+    "source_id": "S24"
+   },
+   {
+    "label": "Funding",
+    "value": "$52.5M Series B led by Insight Partners (October 2026), bringing total funding to $93M",
+    "source_id": "S36"
+   },
+   {
+    "label": "Sells to",
+    "value": "Mid-market and enterprise companies, including Fortune 50 and Fortune 500 enterprises across manufacturing, logistics, and B2B SaaS",
+    "source_id": "S2"
+   },
+   {
+    "label": "Business model",
+    "value": "AI-powered B2B SaaS platform automating order-to-cash workflows",
+    "source_id": "S1"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Expanding platform capabilities beyond collections to run the entire order-to-cash lifecycle for enterprises",
+    "source_id": "S5"
+   },
+   {
+    "text": "Scaling enterprise adoption following its $52.5M Series B funding round",
+    "source_id": "S36"
+   },
+   {
+    "text": "Deepening Microsoft relationship and integrations to bring autonomous order-to-cash to enterprise customers",
+    "source_id": "S5"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2026-03-10",
+    "event": "Raised $29.5M in Series A funding led by Andreessen Horowitz",
+    "source_id": "S35"
+   },
+   {
+    "date": "2026-10-07",
+    "event": "Raised a $52.5 million Series B led by Insight Partners, bringing total funding to $93M",
+    "source_id": "S36"
+   }
+  ],
+  "fit": {
+   "verdict": "fit",
+   "reason": "Stuut is a US-headquartered (New York) venture-backed technology company operating as a growth-stage AI startup, making it an ideal target fit for Corgi startup insurance packages."
+  }
+ },
+ "people": [
+  {
+   "name": "Tarek Alaruri",
+   "title": "Founder and Chief Executive Officer",
+   "role": "Economic buyer",
+   "why": "Founder and CEO, signs off on company strategy, insurance, and overall operations.",
+   "source_id": "S29",
+   "confidence": "high",
+   "likely_reports": [
+    "Head of Finance and Operations",
+    "Co-founder",
+    "Head of Product & Design"
+   ],
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Tarek%20Alaruri%20Stuut"
+  },
+  {
+   "name": "Steve Hu",
+   "title": "Head of Finance and Operations",
+   "role": "Runs the process",
+   "why": "Manages finance infrastructure, budgeting, tools spend, and operational reporting.",
+   "source_id": "S24",
+   "confidence": "high",
+   "likely_reports": [
+    "Accounting / Finance lead"
+   ],
+   "profile_url": "https://linkedin.com/in/stevehu715",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Steve%20Hu%20Stuut"
+  },
+  {
+   "name": "Benjamin (Ben) Winter",
+   "title": "Co-founder and Chief Operating Officer",
+   "role": "Champion",
+   "why": "Co-founder and COO overseeing operations and go-to-market execution.",
+   "source_id": "S30",
+   "confidence": "high",
+   "likely_reports": [
+    "Operations lead"
+   ],
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Benjamin%20(Ben)%20Winter%20Stuut"
+  },
+  {
+   "name": "Adam Chaarawi",
+   "title": "Co-founder, Engineering",
+   "role": "Influencer",
+   "why": "Co-founder leading engineering and technical infrastructure, relevant for cyber liability and security coverage.",
+   "source_id": "S30",
+   "confidence": "high",
+   "likely_reports": [
+    "Engineering lead"
+   ],
+   "profile_url": "https://linkedin.com/in/adam-chaarawi",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Adam%20Chaarawi%20Stuut"
+  },
+  {
+   "name": "Julian Marcu",
+   "title": "Co-founder",
+   "role": "Influencer",
+   "why": "Co-founder and executive team member involved in foundational company building.",
+   "source_id": "S31",
+   "confidence": "high",
+   "likely_reports": [],
+   "profile_url": null,
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Julian%20Marcu%20Stuut"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "General Counsel",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=General%20Counsel%20Stuut"
+  },
+  {
+   "role": "Head of People",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20Stuut"
+  },
+  {
+   "role": "CISO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=CISO%20Stuut"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "found",
+   "detail": "Hiring 2 enterprise-sales or compliance roles"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "found",
+   "detail": "Stuut raises $52.5M Series B led by Insight Partners"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "found",
+   "detail": "Open roles in 3 US states"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "1 finance, ops, legal and people roles read, none mention insurance"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "checked",
+   "detail": "3 recent headlines read, none qualified"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "checked",
+   "detail": "2 recent headlines read, none qualified"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "found",
+   "detail": "Tarek Alaruri announces Series B funding to scale order-to-cash platform"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "Last Form D filed 2026-09-16"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Artisan",
+   "what": "AI employees (an AI sales rep) sold to banks, insurers and large B2B SaaS companies",
+   "situation": "Every enterprise deal depended on insurance; one broker was very expensive, another took weeks to bind; a 2.0 launch needed higher limits",
+   "result": "Paid 30% less than with its previous broker and had higher limits bound in two days",
+   "quote": "With Corgi, it's been faster, easier, and cheaper. We paid 30% less than we did before. You guys are both the carrier and the broker, two in one. We got it all done in two days.",
+   "speaker": "Jasper, Founder & CEO, Artisan",
+   "useWhen": "sells to banks, insurers or other regulated enterprises; is unhappy with broker cost or speed; has a renewal or needs higher limits",
+   "url": "https://www.corgi.insure/customers/artisan",
+   "quoteUrl": "https://www.corgi.insure/customers/artisan",
+   "why_similar": "Like Stuut, Artisan builds AI employee software and sells to large B2B enterprises where deals depend on insurance coverage."
+  },
+  {
+   "customer": "Bland",
+   "what": "Sells to some of the largest companies in the world",
+   "situation": "Large customers require a lot of coverage, and each new customer can bring new requirements",
+   "result": "Adds coverage as customers ask for it without starting a new process each time",
+   "quote": "Corgi takes care of everything, we don't have to go through the hassle of a new process every time a customer needs something new.",
+   "speaker": "Isaiah N. Granet, Co-Founder & CEO, Bland",
+   "useWhen": "is moving upmarket and keeps getting new insurance requirements from customers",
+   "url": "https://www.corgi.insure/",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Like Stuut, Bland sells to some of the largest companies in the world and needs to handle evolving enterprise insurance requirements as it moves upmarket."
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Stuut raises $52.5M Series B led by Insight Partners",
+   "signal_id": "funding",
+   "strength": "strong",
+   "coverage": [
+    "D&O",
+    "Crime"
+   ],
+   "quote": "Stuut raises a $52.5M Series B led by Insight Partners",
+   "source_id": "S1",
+   "date": "2026-10-07",
+   "person": null,
+   "how_to_use": "Reference their recent Series B funding round as a key milestone for expanding coverage and scaling D&O protection.",
+   "maps_to": "Priced funding round",
+   "source_url": "https://www.stuut.ai/",
+   "found_by": "Looks up the company's Form D filings, which are due within 15 days of a first sale, and searches news for the round announcement.",
+   "why_it_matters": "Investors commonly require D&O within 60 to 90 days of close, and new board seats mean new personal liability.",
+   "angle": "Investors commonly require D&O within 60 to 90 days of close. Ask whether D&O is already in place for the new board."
+  },
+  {
+   "headline": "Tarek Alaruri announces Series B funding to scale order-to-cash platform",
+   "signal_id": "exec_post",
+   "strength": "strong",
+   "coverage": [
+    "D&O",
+    "Crime"
+   ],
+   "quote": "Today, we\u2019re excited to share we\u2019ve raised a $52.5 million Series B led by Insight Partners",
+   "source_id": "S2",
+   "date": "2026-10-07",
+   "person": "Tarek Alaruri",
+   "how_to_use": "Congratulate Tarek on the recent Series B announcement and tie the growth in enterprise scaling to comprehensive insurance packages.",
+   "maps_to": "A leader's own public post",
+   "source_url": "https://www.stuut.ai/blog/why-we-raised-series-b",
+   "found_by": "Runs one search per top contact for their recent public posts, interviews and announcements, and keeps only results that name both the person and the company.",
+   "why_it_matters": "It is the most personal opener available: something that person chose to say in public.",
+   "angle": "Open with what they said and where, then connect it to the insurance requirement it creates."
+  },
+  {
+   "signal_id": "enterprise_push",
+   "maps_to": "Selling to bigger customers",
+   "coverage": [
+    "Tech E&O",
+    "Cyber Liability",
+    "General Liability"
+   ],
+   "person": null,
+   "detected_by": "code",
+   "headline": "Hiring 2 enterprise-sales or compliance roles",
+   "strength": "moderate",
+   "quote": "Open roles on the company's careers page that point to selling to larger customers: Enterprise Account Executive.",
+   "source_id": "S40",
+   "date": "2026-10-13",
+   "how_to_use": "Enterprise customers ask for a certificate of insurance (Tech E&O and cyber) before they sign. Ask whether a deal is waiting on one.",
+   "source_url": "https://stuut.ai/careers",
+   "found_by": "Reads every open role and flags enterprise-sales, solutions and compliance titles. Fetches the company's security, trust, customers and enterprise pages.",
+   "why_it_matters": "Enterprise procurement asks for a certificate of insurance before signing. This is usually the first hard insurance deadline a startup hits, and a deal is waiting on it.",
+   "angle": "Enterprise customers ask for a certificate of insurance (Tech E&O and cyber) before they sign. Ask whether a deal is waiting on one."
+  },
+  {
+   "signal_id": "hiring_states",
+   "maps_to": "Hiring across US states",
+   "coverage": [
+    "Workers' Comp",
+    "Employment Practices (EPL)"
+   ],
+   "person": null,
+   "detected_by": "code",
+   "headline": "Open roles in 3 US states",
+   "strength": "moderate",
+   "quote": "Roles located in 3 US states: NY (12), CA (9), IL (1).",
+   "source_id": "S41",
+   "date": "2026-10-13",
+   "how_to_use": "Each new state with an employee needs workers' comp there. Ask whether coverage follows the hiring plan.",
+   "source_url": "https://stuut.ai/careers",
+   "found_by": "Reads the location of every open role and counts the distinct US states. If the company has no job board, its own careers page is read instead. For a company based abroad, one US role is enough.",
+   "why_it_matters": "Workers' comp is required state by state, from the first employee in each one. Headcount growth also raises employment-practices risk.",
+   "angle": "Each new state with an employee needs workers' comp there. Ask whether coverage follows the hiring plan."
+  }
+ ],
+ "rejected": [
+  {
+   "candidate": "ai_launch",
+   "reason": "The core product offering and AI agent capabilities are general business features described on the website rather than a distinct new product or agent launch within the last 6 months that maps cleanly to an AI Liability trigger."
+  }
+ ],
+ "bottomLine": "strong why-now",
+ "messages": [
+  {
+   "contact": "Tarek Alaruri",
+   "title": "Founder and Chief Executive Officer",
+   "signal_used": "exec_post",
+   "nurture": false,
+   "call_opener": "Hi Tarek, [Your name] at Corgi. Saw your post announcing Stuut's 52.5M Series B led by Insight Partners. Investors commonly require D&O within 60 to 90 days of close, so I wanted to check whether D&O is already in place for the new board or if it is worth us putting a quote next to it this week?",
+   "email": {
+    "subject": "your series b",
+    "body": "Saw your post announcing Stuut's 52.5M Series B led by Insight Partners. New board seats usually come with a D&O requirement in the term sheet. Is D&O already sorted for the new board, or is it worth a quick look? Artisan paid 30% less than with its previous broker and had higher limits bound in two days.\n\n[Your name]"
+   },
+   "followup": "Hey Tarek, following up on your Series B. Since you are scaling your order-to-cash platform, let me know if you need to add D&O protection before the new board meets.\n\n[Your name]",
+   "linkedin_note": "Saw your post on the 52.5M Series B led by Insight Partners. Wanted to connect.",
+   "linkedin_dm": "Saw your post on the 52.5M Series B led by Insight Partners. Investors usually want D&O in place within 60 to 90 days of close. Is that covered for the new board?",
+   "why": "Signal used: Tarek Alaruri's public post announcing the 52.5M Series B led by Insight Partners (source S2). Proof point used: Artisan story (source S.corgi.insure/customers/artisan). Trigger to coverage logic: Series B funding creates new board seats, triggering a D&O insurance requirement.",
+   "proof_used": "Artisan",
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": []
+  },
+  {
+   "contact": "Steve Hu",
+   "title": "Head of Finance and Operations",
+   "signal_used": "funding",
+   "nurture": false,
+   "call_opener": "Hi Steve, [Your name] at Corgi. Saw Stuut raised a 52.5M Series B led by Insight Partners. Investors commonly require D&O within 60 to 90 days of close, so I wanted to ask whether D&O is already in place for the new board or if you need a quote this week?",
+   "email": {
+    "subject": "stuut series b",
+    "body": "Saw Stuut raised a 52.5M Series B led by Insight Partners. New funding rounds typically trigger a D&O requirement from investors within 60 to 90 days of close. Is D&O already in place for the new board, or would it help to review a quote? Artisan paid 30% less than with its previous broker and had higher limits bound in two days.\n\n[Your name]"
+   },
+   "followup": "Hi Steve, circling back on the Series B and D&O coverage for the new board. Let me know if you want to compare a quote.\n\n[Your name]",
+   "linkedin_note": "Saw Stuut raised a 52.5M Series B led by Insight Partners. Let's connect.",
+   "linkedin_dm": "Saw Stuut raised a 52.5M Series B led by Insight Partners. Investors usually require D&O within 60 to 90 days of close. Is that covered for your board?",
+   "why": "Signal used: Stuut raises 52.5M Series B led by Insight Partners (source S1). Proof point used: Artisan story (source S.corgi.insure/customers/artisan). Trigger to coverage logic: Series B funding triggers investor requirements for D&O coverage.",
+   "proof_used": "Artisan",
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": []
+  },
+  {
+   "contact": "Benjamin (Ben) Winter",
+   "title": "Co-founder and Chief Operating Officer",
+   "signal_used": "funding",
+   "nurture": false,
+   "call_opener": "Hi Ben, [Your name] at Corgi. Saw Stuut raised a 52.5M Series B led by Insight Partners. Investors commonly require D&O within 60 to 90 days of close, so I wanted to check whether D&O is already in place for the new board or if we should put a quote together?",
+   "email": {
+    "subject": "stuut series b",
+    "body": "Saw Stuut raised a 52.5M Series B led by Insight Partners. Funding rounds like this mean investors will likely require D&O within 60 to 90 days of close. Is D&O already covered for the new board, or is it worth looking at a quote? Bland adds coverage as customers ask for it without starting a new process each time.\n\n[Your name]"
+   },
+   "followup": "Hi Ben, following up on the Series B. Let me know if D&O is sorted for the new board or if you want a quote.\n\n[Your name]",
+   "linkedin_note": "Saw Stuut raised a 52.5M Series B led by Insight Partners. Let's connect.",
+   "linkedin_dm": "Saw Stuut raised a 52.5M Series B led by Insight Partners. Investors typically require D&O within 60 to 90 days of close. Is that in place?",
+   "why": "Signal used: Stuut raises 52.5M Series B led by Insight Partners (source S1). Proof point used: Bland story (source S.corgi.insure/customers/bland). Trigger to coverage logic: Series B funding triggers investor requirements for D&O coverage.",
+   "proof_used": "Bland",
+   "corrections": [
+    "[Your name] added to the call opener"
+   ],
+   "lint": []
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

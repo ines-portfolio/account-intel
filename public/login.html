@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Sign in · Account Intel</title>
+<link rel="icon" href="/corgi-mark.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400..700&family=Geist+Mono:wght@400..700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body class="auth">
+<div class="authsplit">
+  <section class="authleft">
+    <a class="brand" href="/login"><img src="/corgi-logo.svg" alt="Corgi"><span>Account Intel</span></a>
+    <form class="authform" id="login" novalidate>
+      <div class="eyebrow">// account intel · take-home prototype</div>
+      <h1>Welcome to <em>Account Intel</em>.</h1>
+      <p class="lede">Type a company name and get the reason to reach out now, the people to talk to and the messages to send. Sign in with the email and password shared with you.</p>
+      <label class="field"><span>Email</span><input id="email" type="email" name="email" autocomplete="username" placeholder="you@company.com" required autofocus></label>
+      <label class="field"><span>Password</span>
+        <span class="pwwrap"><input id="password" type="password" name="password" autocomplete="current-password" placeholder="Enter the access password" required>
+        <button type="button" class="pwtoggle" id="show" aria-label="Show password" aria-pressed="false">Show</button></span></label>
+      <div class="autherror" id="error" role="alert" hidden></div>
+      <button class="btn-primary" id="go">Sign in <span aria-hidden="true">→</span></button>
+      <p class="sub">No credentials? Email <a href="mailto:inesg.gtm@gmail.com">inesg.gtm@gmail.com</a>.</p>
+    </form>
+    <p class="authnote">Built by Inês Gouveia for the Corgi GTM Engineer take-home. An independent project, not operated by Corgi.</p>
+  </section>
+  <aside class="authright" aria-label="What the app does">
+    <img class="watermark" src="/corgi-mark.svg" alt="">
+    <div class="authpitch">
+      <div class="eyebrow">// what it does</div>
+      <h2>From a company name to a <em>reason to call</em>.</h2>
+      <p>The agent researches the account, keeps only signals it can quote from a source, finds the buyers and drafts the outreach in Corgi's voice.</p>
+      <div class="preview" aria-hidden="true">
+        <div class="pv-card pv-account">
+          <div class="pv-row"><span class="pv-ini">UP</span><div><b>UpSmith</b><small>upsmith.com</small></div><span class="pv-tag">Work it: strong signal</span></div>
+        </div>
+        <div class="pv-card pv-signal">
+          <div class="pv-label">Signals</div>
+          <div class="pv-line"><i></i><span>Raised a $10M Series A</span><small>source checked</small></div>
+          <div class="pv-line"><i></i><span>Two new board members</span><small>source checked</small></div>
+          <div class="pv-cover">Maps to <b>D&amp;O</b></div>
+        </div>
+        <div class="pv-card pv-draft">
+          <div class="pv-label">Email draft · built on the funding signal</div>
+          <div class="pv-bar" style="width:92%"></div><div class="pv-bar" style="width:78%"></div><div class="pv-bar" style="width:55%"></div>
+        </div>
+      </div>
+      <ol class="steps"><li><b>1</b>Research</li><li><b>2</b>Buyers</li><li><b>3</b>Signals</li><li><b>4</b>Messages</li></ol>
+    </div>
+  </aside>
+</div>
+<script>
+const form = document.getElementById("login"), error = document.getElementById("error"), go = document.getElementById("go"), show = document.getElementById("show");
+show.addEventListener("click", () => {
+  const on = form.password.type === "password";
+  form.password.type = on ? "text" : "password";
+  show.textContent = on ? "Hide" : "Show"; show.setAttribute("aria-pressed", on); show.setAttribute("aria-label", on ? "Hide password" : "Show password");
+});
+form.addEventListener("submit", async (e) => {
+  e.preventDefault();
+  error.hidden = true;
+  if (!form.email.value.trim() || !form.password.value) { error.textContent = "Enter your email and password."; error.hidden = false; return (form.email.value.trim() ? form.password : form.email).focus(); }
+  go.disabled = true; go.textContent = "Signing in…";
+  try {
+    const res = await fetch("/api/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ email: form.email.value, password: form.password.value }) });
+    if (res.ok) return location.replace(new URLSearchParams(location.search).get("next") || "/");
+    error.textContent = (await res.json()).error; error.hidden = false;
+  } catch { error.textContent = "Can't reach the app. Try again in a moment."; error.hidden = false; }
+  go.disabled = false; go.innerHTML = 'Sign in <span aria-hidden="true">→</span>';
+  form.password.select();
+});
+</script>
+</body>
+</html>

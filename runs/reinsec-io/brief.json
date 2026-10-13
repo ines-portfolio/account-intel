@@ -1,0 +1,423 @@
+{
+ "account": {
+  "name": "Rein Security",
+  "domain": "reinsec.io",
+  "segment": "startups",
+  "slug": "reinsec-io"
+ },
+ "ranAt": "2026-10-13T02:28:18.896Z",
+ "model": "Google Gemini \u00b7 gemini-3.5-flash-lite",
+ "stages": [
+  {
+   "id": "resolve",
+   "status": "done",
+   "detail": "Reinsec \u00b7 reinsec.io \u00b7 startups"
+  },
+  {
+   "id": "collect",
+   "status": "done",
+   "detail": "9 page, 8 search \u00b7 12 signal checks"
+  },
+  {
+   "id": "research",
+   "status": "done",
+   "detail": "unclear"
+  },
+  {
+   "id": "people",
+   "status": "done",
+   "detail": "2 found"
+  },
+  {
+   "id": "person",
+   "status": "done",
+   "detail": "8 items about 2 people"
+  },
+  {
+   "id": "signals",
+   "status": "done",
+   "detail": "4 passed, 2 rejected"
+  },
+  {
+   "id": "proof",
+   "status": "done",
+   "detail": "Bland, Intryc, Artisan"
+  },
+  {
+   "id": "drafts",
+   "status": "done",
+   "detail": "2 contacts"
+  }
+ ],
+ "verdict": {
+  "label": "Check fit first",
+  "reason": "HQ is in Tel Aviv, Israel, and while they serve enterprise customers globally (including the US), no specific US office or local entity address is detailed in the primary sources, though they participate in the US market. Signal found: Announced $25M Series A funding round."
+ },
+ "research": {
+  "name": "Rein Security",
+  "one_liner": "Runtime security platform built on the execution layer for enterprise AI apps and agents.",
+  "facts": [
+   {
+    "label": "HQ",
+    "value": "Tel Aviv, Israel",
+    "source_id": "S15"
+   },
+   {
+    "label": "Headcount",
+    "value": "23 (IVC estimate) / 11-50 employees (F4 estimate)",
+    "source_id": "S10"
+   },
+   {
+    "label": "Founded",
+    "value": "2024",
+    "source_id": "S10"
+   },
+   {
+    "label": "Funding",
+    "value": "$35M total ($25M Series A announced Oct 2026, $8M Seed announced Jan 2026)",
+    "source_id": "S2"
+   },
+   {
+    "label": "Sells to",
+    "value": "Enterprises deploying AI agents and applications in production (Finance, Insurance, Healthcare, SaaS & Retail)",
+    "source_id": "S1"
+   },
+   {
+    "label": "Business model",
+    "value": "B2B SaaS / Runtime Security Platform",
+    "source_id": "S10"
+   },
+   {
+    "label": "Open roles",
+    "value": "Go-to-market and engineering roles",
+    "source_id": "S9"
+   }
+  ],
+  "priorities": [
+   {
+    "text": "Expanding product capabilities, scaling the Agent Breakers research team, and hiring aggressively following the Series A funding round.",
+    "source_id": "S2"
+   },
+   {
+    "text": "Growing enterprise market share in the agentic AI security category across finance, healthcare, SaaS, and retail.",
+    "source_id": "S1"
+   }
+  ],
+  "timeline": [
+   {
+    "date": "2026-01-28",
+    "event": "Rein Security emerges from stealth with an $8 million seed round.",
+    "source_id": "S8"
+   },
+   {
+    "date": "2026-06-15",
+    "event": "Launches the first security platform purpose-built for enterprise agents.",
+    "source_id": "S17"
+   },
+   {
+    "date": "2026-10-08",
+    "event": "Announces a $25 million Series A round co-led by Glilot Capital and Sienna Venture Capital, bringing total funding to $35 million.",
+    "source_id": "S8"
+   }
+  ],
+  "fit": {
+   "verdict": "unclear",
+   "reason": "HQ is in Tel Aviv, Israel, and while they serve enterprise customers globally (including the US), no specific US office or local entity address is detailed in the primary sources, though they participate in the US market."
+  }
+ },
+ "people": [
+  {
+   "name": "Matan Bar-Efrat",
+   "title": "Co-Founder & CEO",
+   "role": "Economic buyer",
+   "why": "Founder and CEO; oversees company operations, strategy, and business growth.",
+   "source_id": "S9",
+   "confidence": "high",
+   "likely_reports": [],
+   "profile_url": "https://linkedin.com/in/matan-bar-efrat-cyr",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Matan%20Bar-Efrat%20Rein%20Security"
+  },
+  {
+   "name": "Netanel Rubin",
+   "title": "Co-Founder & CTO",
+   "role": "Champion",
+   "why": "Co-founder and CTO; leads the technical platform and product engineering.",
+   "source_id": "S9",
+   "confidence": "high",
+   "likely_reports": [],
+   "profile_url": "https://linkedin.com/in/netanelrubin",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Netanel%20Rubin%20Rein%20Security"
+  }
+ ],
+ "personasToFind": [
+  {
+   "role": "Head of Finance / CFO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Finance%20%2F%20CFO%20Rein%20Security"
+  },
+  {
+   "role": "General Counsel / Legal",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=General%20Counsel%20%2F%20Legal%20Rein%20Security"
+  },
+  {
+   "role": "Head of People / HR",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20People%20%2F%20HR%20Rein%20Security"
+  },
+  {
+   "role": "Head of Security / CISO",
+   "find_url": "https://www.linkedin.com/search/results/people/?keywords=Head%20of%20Security%20%2F%20CISO%20Rein%20Security"
+  }
+ ],
+ "signalChecks": [
+  {
+   "id": "enterprise_push",
+   "name": "Selling to bigger customers",
+   "priority": 1,
+   "status": "found",
+   "detail": "Published customer logos and enterprise security use cases for major institutions"
+  },
+  {
+   "id": "funding",
+   "name": "Priced funding round",
+   "priority": 1,
+   "status": "found",
+   "detail": "Announced $25M Series A funding round"
+  },
+  {
+   "id": "hiring_states",
+   "name": "Hiring across US states",
+   "priority": 1,
+   "status": "found",
+   "detail": "Active hiring for go-to-market and engineering roles"
+  },
+  {
+   "id": "insurance_job",
+   "name": "A job post that owns insurance",
+   "priority": 1,
+   "status": "checked",
+   "detail": "No public job feed found for this company"
+  },
+  {
+   "id": "new_leader",
+   "name": "New finance, legal, people or security lead",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "ai_launch",
+   "name": "AI product or agent launch",
+   "priority": 2,
+   "status": "found",
+   "detail": "Launched runtime security platform capabilities for enterprise AI agents"
+  },
+  {
+   "id": "public_contract",
+   "name": "Federal contract award",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No federal awards in the last 6 months"
+  },
+  {
+   "id": "office",
+   "name": "New office or lease",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "mna",
+   "name": "Acquisition, either side",
+   "priority": 2,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "board",
+   "name": "New board member",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No recent headlines"
+  },
+  {
+   "id": "exec_post",
+   "name": "A leader's own public post",
+   "priority": 3,
+   "status": "checked",
+   "detail": "8 public items about 2 contacts read, none tied to an insurance moment"
+  },
+  {
+   "id": "renewal",
+   "name": "Renewal window",
+   "priority": 3,
+   "status": "checked",
+   "detail": "No Form D on file"
+  }
+ ],
+ "proof": [
+  {
+   "customer": "Bland",
+   "what": "Sells to some of the largest companies in the world",
+   "situation": "Large customers require a lot of coverage, and each new customer can bring new requirements",
+   "result": "Adds coverage as customers ask for it without starting a new process each time",
+   "quote": "Corgi takes care of everything, we don't have to go through the hassle of a new process every time a customer needs something new.",
+   "speaker": "Isaiah N. Granet, Co-Founder & CEO, Bland",
+   "useWhen": "is moving upmarket and keeps getting new insurance requirements from customers",
+   "url": "https://www.corgi.insure/",
+   "quoteUrl": "https://www.corgi.insure/",
+   "why_similar": "Like Rein Security, Bland sells to some of the largest companies in the world and faces complex insurance requirements as it moves upmarket."
+  },
+  {
+   "customer": "Intryc",
+   "what": "AI quality assurance for customer support; YC S24; handles data for enterprises such as Deel and Factorial",
+   "situation": "Six-figure contracts where customers scrutinize information security; legacy providers meant days or weeks of waiting",
+   "result": "Went from application to documented coverage in five minutes, with a shared Slack channel to Corgi's team",
+   "quote": "I went through the application in five minutes and instead of searching an ocean of policies, the team had everything packaged up for me.",
+   "speaker": "Alex Marantelos, Co-Founder & CEO, Intryc",
+   "useWhen": "handles customer data for larger companies; is working on SOC 2 or security reviews; is an early-stage AI company",
+   "url": "https://www.corgi.insure/customers/intryc",
+   "quoteUrl": "https://www.corgi.insure/customers/intryc",
+   "why_similar": "Like Rein Security, Intryc is an early-stage AI company handling sensitive data for enterprises where customers scrutinize security and compliance."
+  },
+  {
+   "customer": "Artisan",
+   "what": "AI employees (an AI sales rep) sold to banks, insurers and large B2B SaaS companies",
+   "situation": "Every enterprise deal depended on insurance; one broker was very expensive, another took weeks to bind; a 2.0 launch needed higher limits",
+   "result": "Paid 30% less than with its previous broker and had higher limits bound in two days",
+   "quote": "With Corgi, it's been faster, easier, and cheaper. We paid 30% less than we did before. You guys are both the carrier and the broker, two in one. We got it all done in two days.",
+   "speaker": "Jasper, Founder & CEO, Artisan",
+   "useWhen": "sells to banks, insurers or other regulated enterprises; is unhappy with broker cost or speed; has a renewal or needs higher limits",
+   "url": "https://www.corgi.insure/customers/artisan",
+   "quoteUrl": "https://www.corgi.insure/customers/artisan",
+   "why_similar": "Like Rein Security, Artisan sells AI products to enterprise customers in sectors like finance, insurance, and large B2B SaaS."
+  }
+ ],
+ "signals": [
+  {
+   "headline": "Announced $25M Series A funding round",
+   "signal_id": "funding",
+   "strength": "strong",
+   "coverage": [
+    "D&O",
+    "Crime"
+   ],
+   "quote": "We're announcing a $25 million Series A, bringing our total funding to $35 million.",
+   "source_id": "S2",
+   "date": "2026-10-08",
+   "person": null,
+   "how_to_use": "Reference their recent Series A funding announcement as a natural milestone to review their directors and officers (D&O) coverage limits and risk posture.",
+   "maps_to": "Priced funding round",
+   "source_url": "https://reinsec.io/blog/series-a/",
+   "found_by": "Looks up the company's Form D filings, which are due within 15 days of a first sale, and searches news for the round announcement.",
+   "why_it_matters": "Investors commonly require D&O within 60 to 90 days of close, and new board seats mean new personal liability.",
+   "angle": "Investors commonly require D&O within 60 to 90 days of close. Ask whether D&O is already in place for the new board."
+  },
+  {
+   "headline": "Launched runtime security platform capabilities for enterprise AI agents",
+   "signal_id": "ai_launch",
+   "strength": "strong",
+   "coverage": [
+    "AI Liability",
+    "Tech E&O"
+   ],
+   "quote": "Today, we're launching the first security platform purpose-built for Enterprise Agents.",
+   "source_id": "S17",
+   "date": "2026-06-15",
+   "person": null,
+   "how_to_use": "Connect their product launch protecting autonomous AI execution workflows to specialized AI Liability and Tech E&O coverage.",
+   "maps_to": "AI product or agent launch",
+   "source_url": "https://reinsec.io/blog/were-launching-the-first-security-platform-for-enterprise-agents/",
+   "found_by": "Searches news for launch announcements and reads the company's blog and product pages.",
+   "why_it_matters": "AI output is a new kind of liability, and buyers now ask about it in security reviews.",
+   "angle": "Customers ask how AI output is covered. Ask whether AI liability is part of their Tech E&O today."
+  },
+  {
+   "headline": "Published customer logos and enterprise security use cases for major institutions",
+   "signal_id": "enterprise_push",
+   "strength": "weak",
+   "coverage": [
+    "Tech E&O",
+    "Cyber Liability",
+    "General Liability"
+   ],
+   "quote": "At Dun & Bradstreet, our AI workloads run everywhere. We needed security that delivers coverage at the application layer",
+   "source_id": "S3",
+   "date": null,
+   "person": null,
+   "how_to_use": "Undated, so supporting evidence only. Acknowledge their ongoing push into large enterprise workflows (such as Dun & Bradstreet, H&R Block, and Lemonade) as a prompt to evaluate comprehensive Tech E&O and Cyber Liability policies.",
+   "maps_to": "Selling to bigger customers",
+   "source_url": "https://reinsec.io/solutions/ai-agent-security-finance-insurance/",
+   "found_by": "Reads every open role and flags enterprise-sales, solutions and compliance titles. Fetches the company's security, trust, customers and enterprise pages.",
+   "why_it_matters": "Enterprise procurement asks for a certificate of insurance before signing. This is usually the first hard insurance deadline a startup hits, and a deal is waiting on it.",
+   "angle": "Enterprise customers ask for a certificate of insurance (Tech E&O and cyber) before they sign. Ask whether a deal is waiting on one."
+  },
+  {
+   "headline": "Active hiring for go-to-market and engineering roles",
+   "signal_id": "hiring_states",
+   "strength": "weak",
+   "coverage": [
+    "Workers' Comp",
+    "Employment Practices (EPL)"
+   ],
+   "quote": "We're actively recruiting for both go-to-market and engineering roles. If you like what we do, reach out.",
+   "source_id": "S9",
+   "date": null,
+   "person": null,
+   "how_to_use": "Undated, so supporting evidence only. Tie their active team expansion to reviewing Employment Practices Liability (EPL) and Workers' Comp coverage as headcount scales.",
+   "maps_to": "Hiring across US states",
+   "source_url": "https://reinsec.io/about-us/",
+   "found_by": "Reads the location of every open role and counts the distinct US states.",
+   "why_it_matters": "Workers' comp is required state by state, from the first employee in each one. Headcount growth also raises employment-practices risk.",
+   "angle": "Each new state with an employee needs workers' comp there. Ask whether coverage follows the hiring plan."
+  }
+ ],
+ "rejected": [
+  {
+   "candidate": "office",
+   "reason": "No primary source or dated record confirms a new office lease or headquarters move within the last 6 months."
+  },
+  {
+   "candidate": "new_leader",
+   "reason": "Founders Matan Bar-Efrat and Netanel Rubin have been in seat since founding in 2024, so no new C-level executive arrival occurred in the last 90 days."
+  }
+ ],
+ "bottomLine": "strong why-now",
+ "messages": [
+  {
+   "contact": "Matan Bar-Efrat",
+   "title": "Co-Founder & CEO",
+   "signal_used": "Announced $25M Series A funding round",
+   "nurture": false,
+   "call_opener": "Hi Matan, I saw the $25M Series A announcement. Investors commonly require D&O within 60 to 90 days of close, so I wanted to ask whether D&O is already in place for the new board. [Your name] at Corgi, we get you a quote in minutes.",
+   "email": {
+    "subject": "your series a",
+    "body": "Hi Matan,\n\nSaw the $25M Series A announcement. Investors commonly require D&O within 60 to 90 days of close, so is D&O already in place for your new board?\n\nCorgi takes care of everything, we don't have to go through the hassle of a new process every time a customer needs something new.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hi Matan, following up on my note. When you have a moment, is D&O sorted for the new board, or should we put a quick quote together?",
+   "linkedin_note": "Saw the $25M Series A announcement. Investors commonly require D&O within 60 to 90 days of close. Is D&O already in place for your new board? [Your name]",
+   "linkedin_dm": "Saw the $25M Series A announcement. Investors commonly require D&O within 60 to 90 days of close, so I wanted to ask whether D&O is already in place for your new board.",
+   "why": "Used the $25M Series A funding signal (source S2) tailored to the economic buyer (CEO), connecting it to the D&O insurance requirement. Proof used Bland.",
+   "proof_used": "Bland",
+   "lint": []
+  },
+  {
+   "contact": "Netanel Rubin",
+   "title": "Co-Founder & CTO",
+   "signal_used": "Launched runtime security platform capabilities for enterprise AI agents",
+   "nurture": false,
+   "call_opener": "Hi Netanel, I saw the launch of your runtime security platform for enterprise AI agents. Customers ask how AI output is covered, so I wanted to ask whether AI liability is part of your Tech E&O today. [Your name] at Corgi, we get you a quote in minutes.",
+   "email": {
+    "subject": "ai security launch",
+    "body": "Hi Netanel,\n\nSaw the launch of your runtime security platform for enterprise AI agents. Customers ask how AI output is covered, so is AI liability part of your Tech E&O today?\n\nI went through the application in five minutes and instead of searching an ocean of policies, the team had everything packaged up for me.\n\nWorth a look?\n\n[Your name]"
+   },
+   "followup": "Hi Netanel, following up on my note. When you have a moment, is AI liability part of your Tech E&O today?",
+   "linkedin_note": "Saw the launch of your runtime security platform for enterprise AI agents. Customers ask how AI output is covered, so is AI liability part of your Tech E&O today? [Your name]",
+   "linkedin_dm": "Saw the launch of your runtime security platform for enterprise AI agents. Customers ask how AI output is covered, so is AI liability part of your Tech E&O today?",
+   "why": "Used the AI product launch signal (source S17) tailored to the technical champion (CTO), connecting it to AI Liability and Tech E&O coverage. Proof used Intryc.",
+   "proof_used": "Intryc",
+   "lint": []
+  }
+ ],
+ "notes": [
+  "People and titles come from public pages and search snippets. Confirm each person still works there before sending."
+ ]
+}

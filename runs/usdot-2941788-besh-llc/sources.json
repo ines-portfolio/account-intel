@@ -1,0 +1,18 @@
+[
+ {
+  "id": "S1",
+  "kind": "page",
+  "date": null,
+  "url": "https://beshexpress.com/",
+  "title": "",
+  "text": ""
+ },
+ {
+  "id": "S2",
+  "kind": "fmcsa",
+  "url": "https://safer.fmcsa.dot.gov/query.asp?searchtype=ANY&query_type=queryCarrierSnapshot&query_param=USDOT&query_string=2941788",
+  "title": "Federal carrier record and insurance filings, USDOT 2941788",
+  "date": "2026-10-13",
+  "text": "BESH LLC, AURORA, CO. 105 power units, 105 drivers. USDOT status active. Liability insurer on file: CorePointe Insurance Company, policy start 2026-01-29. Coverage end date filed: 2026-10-22."
+ }
+]
