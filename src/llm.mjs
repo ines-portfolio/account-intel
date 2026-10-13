@@ -79,9 +79,12 @@ export async function chatJson({ system, user }) {
   let prompt = user;
   for (let attempt = 1; ; attempt++) {
     const text = await chat({ system, user: prompt, json: true });
+    const body = text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1);
     try {
-      return JSON.parse(text.slice(text.indexOf("{"), text.lastIndexOf("}") + 1));
+      return JSON.parse(body);
     } catch (err) {
+      // Small models often leave a comma before a closing bracket or add a // comment line. Repair those before asking again.
+      try { return JSON.parse(body.replace(/^\s*\/\/.*$/gm, "").replace(/,(\s*[}\]])/g, "$1")); } catch {}
       if (attempt === 3) throw new Error(`Model did not return valid JSON: ${err.message}`);
       prompt = `${user}\n\nYour previous reply was not valid JSON (${err.message}). Reply with the JSON object only.`;
     }

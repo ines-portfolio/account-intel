@@ -4,7 +4,13 @@ I built this for the Corgi GTM Engineer take-home. A rep types a company name an
 
 It is a chat app that runs on your laptop. Every account keeps its own brief and its own conversation, so you can come back to it and keep asking.
 
-## Run it
+## Try it live
+
+The app is deployed at **https://account-intel-7iz2.onrender.com**. It needs a sign-in: to get credentials, contact me at inesg.gtm@gmail.com.
+
+It runs on a free server that sleeps when nobody uses it, so the first page can take up to a minute to load. The ten saved accounts are always there; accounts researched on the live copy are cleared when the server restarts.
+
+## Run it locally
 
 You need Node 20 or newer. There is nothing to install.
 
