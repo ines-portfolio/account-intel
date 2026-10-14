@@ -60,7 +60,7 @@ function dialog({ title, body, confirm = "Confirm", input = false }) {
       if (e.target === m || e.target.closest("[data-no]")) close(null);
       else if (e.target.closest("[data-yes]")) close(input ? m.querySelector("textarea").value.trim() || null : true);
     };
-    m.onkeydown = (e) => e.key === "Escape" && close(null);
+    m.onkeydown = (e) => { if (e.key === "Escape") close(null); }; // a handler that returns false would block typing
   });
 }
 
@@ -118,7 +118,7 @@ function keysDialog(focus = "model") {
     <div class="keyrow admin"><b>Not the person who set this up?</b><p>${app.admin ? `Ask <b>${esc(app.admin)}</b>.` : "Ask whoever installed the app for you."} Open the key you need above and use <b>Copy a message for my admin</b> to send them exactly what to add.</p></div>
     <div class="rowx"><span class="sub" id="keycheck"></span><button class="ghost" data-recheck>I added a key: check again</button><button class="btn-primary" data-no>Done</button></div></div>`;
   m.hidden = false;
-  m.onkeydown = (e) => e.key === "Escape" && (m.hidden = true);
+  m.onkeydown = (e) => { if (e.key === "Escape") m.hidden = true; };
   m.onclick = async (e) => {
     if (e.target === m || e.target.closest("[data-no]")) return (m.hidden = true);
     if (e.target.closest("[data-recheck]")) {
@@ -213,7 +213,7 @@ function formDialog(title, fields, confirm = "Done") {
     m.hidden = false;
     m.querySelector("[data-k]").focus();
     const close = (v) => { m.hidden = true; m.onclick = m.onkeydown = null; resolve(v); };
-    m.onkeydown = (e) => e.key === "Escape" && close(null);
+    m.onkeydown = (e) => { if (e.key === "Escape") close(null); }; // a handler that returns false would block typing
     m.onclick = (e) => {
       if (e.target === m || e.target.closest("[data-no]")) close(null);
       else if (e.target.closest("[data-yes]")) close(Object.fromEntries([...m.querySelectorAll("[data-k]")].map((el) => [el.dataset.k, el.value.trim()])));
