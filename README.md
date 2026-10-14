@@ -15,9 +15,13 @@ It runs on a free server that sleeps when nobody uses it, so the first page can 
 You need Node 20 or newer. There is nothing to install.
 
 ```bash
+git clone https://github.com/ines-portfolio/account-intel.git
+cd account-intel
 cp .env.example .env     # then add your keys, see below
 npm start
 ```
+
+With the zip instead of GitHub: unzip it, `cd account-intel`, then the last two lines.
 
 Open http://localhost:3000. If that port is taken, start it with `PORT=3001 npm start` and open http://localhost:3001.
 
